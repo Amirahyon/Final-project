@@ -4,11 +4,18 @@
 html, body{
     margin: 0;
     padding: 0;
+    background-color: #fdfbfb;
 }
 
 *{
     box-sizing: border-box
 }
 
+a:hover{
+    font-weight: bold;
+}
 
+.background{
+    background: linear-gradient(90deg, #ABA7A7, #ECDE91)
+}
 @tailwind utilities;
