@@ -559,7 +559,7 @@ a:hover{
 }
 
 .info{
-  font-size: 22px;
+  /* font-size: 22px; */
 }
 
 .line{
@@ -638,6 +638,11 @@ a:hover{
 .my-\[6\.56rem\] {
   margin-top: 6.56rem;
   margin-bottom: 6.56rem;
+}
+
+.my-\[3rem\] {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .mb-0 {
@@ -800,6 +805,10 @@ a:hover{
   height: 100%;
 }
 
+.h-\[125\.88rem\] {
+  height: 125.88rem;
+}
+
 .h-\[13\.31rem\] {
   height: 13.31rem;
 }
@@ -810,10 +819,6 @@ a:hover{
 
 .h-\[14\.63rem\] {
   height: 14.63rem;
-}
-
-.h-\[146\.88rem\] {
-  height: 146.88rem;
 }
 
 .h-\[15\.69rem\] {
@@ -1044,16 +1049,16 @@ a:hover{
   height: ;
 }
 
-.h-\[100\.88rem\] {
-  height: 100.88rem;
+.h-\[146\.88rem\] {
+  height: 146.88rem;
 }
 
-.h-\[120\.88rem\] {
-  height: 120.88rem;
+.h-\[61\.13rem\] {
+  height: 61.13rem;
 }
 
-.h-\[125\.88rem\] {
-  height: 125.88rem;
+.h-\[149\.88rem\] {
+  height: 149.88rem;
 }
 
 .w-\[0\.64rem\] {
@@ -1164,10 +1169,6 @@ a:hover{
   width: 32.88rem;
 }
 
-.w-\[33\%\] {
-  width: 33%;
-}
-
 .w-\[36\.19rem\] {
   width: 36.19rem;
 }
@@ -1260,16 +1261,16 @@ a:hover{
   width: 90%;
 }
 
-.w-\[95\%\] {
-  width: 95%;
-}
-
 .w-\[97\%\] {
   width: 97%;
 }
 
 .w-\[9rem\] {
   width: 9rem;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .items-center {
@@ -1332,34 +1333,9 @@ a:hover{
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-blue-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(147 197 253 / var(--tw-bg-opacity));
-}
-
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
-.bg-red-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
 }
 
 .p-\[0\.63rem\] {
@@ -1399,6 +1375,10 @@ a:hover{
 
 .pt-\[1\.5rem\] {
   padding-top: 1.5rem;
+}
+
+.pt-\[1rem\] {
+  padding-top: 1rem;
 }
 
 .pt-\[2\.25rem\] {
