@@ -14,4 +14,5 @@ function toggleMenu() {
         closeIcon.style.display = 'block';
     }
 }
-menu.addEventListener("click",toggleMenu)
+closeIcon.addEventListener("click", toggleMenu())
+menu.addEventListener("click", toggleMenu)

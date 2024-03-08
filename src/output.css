@@ -598,29 +598,33 @@ button:hover{
   position: fixed;
 }
 
-.inset-y-0 {
-  top: 0px;
-  bottom: 0px;
-}
-
 .right-\[1rem\] {
   right: 1rem;
 }
 
-.top-\[1rem\] {
-  top: 1rem;
+.top-0 {
+  top: 0px;
+}
+
+.top-\[0\.65rem\] {
+  top: 0.65rem;
 }
 
 .z-\[100\] {
   z-index: 100;
 }
 
+.m-\[0\.17rem\] {
+  margin: 0.17rem;
+}
+
 .m-\[0\.63rem\] {
   margin: 0.63rem;
 }
 
-.m-\[0\.17rem\] {
-  margin: 0.17rem;
+.mx-\[0\.17rem\] {
+  margin-left: 0.17rem;
+  margin-right: 0.17rem;
 }
 
 .mx-\[0\.55rem\] {
@@ -643,6 +647,11 @@ button:hover{
   margin-right: auto;
 }
 
+.my-\[0\.33rem\] {
+  margin-top: 0.33rem;
+  margin-bottom: 0.33rem;
+}
+
 .my-\[0\.38rem\] {
   margin-top: 0.38rem;
   margin-bottom: 0.38rem;
@@ -651,6 +660,16 @@ button:hover{
 .my-\[0\.65rem\] {
   margin-top: 0.65rem;
   margin-bottom: 0.65rem;
+}
+
+.my-\[0\.69rem\] {
+  margin-top: 0.69rem;
+  margin-bottom: 0.69rem;
+}
+
+.my-\[1\.1rem\] {
+  margin-top: 1.1rem;
+  margin-bottom: 1.1rem;
 }
 
 .my-\[1rem\] {
@@ -678,58 +697,28 @@ button:hover{
   margin-bottom: 6.56rem;
 }
 
-.my-\[0\.69rem\] {
-  margin-top: 0.69rem;
-  margin-bottom: 0.69rem;
+.mb-0 {
+  margin-bottom: 0px;
 }
 
-.my-\[2rem\] {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+.mb-\[0\.18rem\] {
+  margin-bottom: 0.18rem;
 }
 
-.my-\[3rem\] {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
-.my-\[5rem\] {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-.my-\[1\.5rem\] {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-\[0\.5rem\] {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.mx-\[0\.17rem\] {
-  margin-left: 0.17rem;
-  margin-right: 0.17rem;
-}
-
-.my-\[1\.1rem\] {
-  margin-top: 1.1rem;
-  margin-bottom: 1.1rem;
-}
-
-.my-\[0\.21rem\] {
-  margin-top: 0.21rem;
+.mb-\[0\.21rem\] {
   margin-bottom: 0.21rem;
 }
 
-.my-\[0\.33rem\] {
-  margin-top: 0.33rem;
+.mb-\[0\.28rem\] {
+  margin-bottom: 0.28rem;
+}
+
+.mb-\[0\.33rem\] {
   margin-bottom: 0.33rem;
 }
 
-.mb-0 {
-  margin-bottom: 0px;
+.mb-\[0\.43rem\] {
+  margin-bottom: 0.43rem;
 }
 
 .mb-\[0\.55rem\] {
@@ -760,12 +749,12 @@ button:hover{
   margin-bottom: 2.3rem;
 }
 
-.ml-\[1rem\] {
-  margin-left: 1rem;
+.ml-\[0\.5rem\] {
+  margin-left: 0.5rem;
 }
 
-.ml-\[2rem\] {
-  margin-left: 2rem;
+.ml-\[1rem\] {
+  margin-left: 1rem;
 }
 
 .ml-\[3\.75rem\] {
@@ -780,28 +769,72 @@ button:hover{
   margin-right: 3.75rem;
 }
 
+.mt-\[0\.17rem\] {
+  margin-top: 0.17rem;
+}
+
+.mt-\[0\.21rem\] {
+  margin-top: 0.21rem;
+}
+
+.mt-\[0\.24rem\] {
+  margin-top: 0.24rem;
+}
+
+.mt-\[0\.28rem\] {
+  margin-top: 0.28rem;
+}
+
 .mt-\[0\.2rem\] {
   margin-top: 0.2rem;
+}
+
+.mt-\[0\.33rem\] {
+  margin-top: 0.33rem;
 }
 
 .mt-\[0\.3rem\] {
   margin-top: 0.3rem;
 }
 
+.mt-\[0\.4rem\] {
+  margin-top: 0.4rem;
+}
+
 .mt-\[0\.55rem\] {
   margin-top: 0.55rem;
+}
+
+.mt-\[0\.5rem\] {
+  margin-top: 0.5rem;
 }
 
 .mt-\[0\.63rem\] {
   margin-top: 0.63rem;
 }
 
+.mt-\[0\.65rem\] {
+  margin-top: 0.65rem;
+}
+
 .mt-\[0\.87rem\] {
   margin-top: 0.87rem;
 }
 
+.mt-\[1\.1rem\] {
+  margin-top: 1.1rem;
+}
+
+.mt-\[1\.2rem\] {
+  margin-top: 1.2rem;
+}
+
 .mt-\[1\.38rem\] {
   margin-top: 1.38rem;
+}
+
+.mt-\[1\.57rem\] {
+  margin-top: 1.57rem;
 }
 
 .mt-\[1\.68rem\] {
@@ -880,66 +913,6 @@ button:hover{
   margin-top: 7.9rem;
 }
 
-.mb-\[0\.13rem\] {
-  margin-bottom: 0.13rem;
-}
-
-.mt-\[0\.61rem\] {
-  margin-top: 0.61rem;
-}
-
-.mt-\[1\.1rem\] {
-  margin-top: 1.1rem;
-}
-
-.mt-\[0\.24rem\] {
-  margin-top: 0.24rem;
-}
-
-.mt-\[0\.17rem\] {
-  margin-top: 0.17rem;
-}
-
-.mt-\[2\.18rem\] {
-  margin-top: 2.18rem;
-}
-
-.mt-\[1\.89rem\] {
-  margin-top: 1.89rem;
-}
-
-.mt-\[0\.23rem\] {
-  margin-top: 0.23rem;
-}
-
-.mt-\[0\.68rem\] {
-  margin-top: 0.68rem;
-}
-
-.mt-\[0\.4rem\] {
-  margin-top: 0.4rem;
-}
-
-.mt-\[1\.57rem\] {
-  margin-top: 1.57rem;
-}
-
-.mb-\[0\.21rem\] {
-  margin-bottom: 0.21rem;
-}
-
-.mt-\[0\.21rem\] {
-  margin-top: 0.21rem;
-}
-
-.mt-\[0\.33rem\] {
-  margin-top: 0.33rem;
-}
-
-.mb-\[0\.33rem\] {
-  margin-bottom: 0.33rem;
-}
-
 .block {
   display: block;
 }
@@ -952,6 +925,66 @@ button:hover{
   display: none;
 }
 
+.h-\[0\.25rem\] {
+  height: 0.25rem;
+}
+
+.h-\[0\.34rem\] {
+  height: 0.34rem;
+}
+
+.h-\[0\.38rem\] {
+  height: 0.38rem;
+}
+
+.h-\[0\.49rem\] {
+  height: 0.49rem;
+}
+
+.h-\[0\.58rem\] {
+  height: 0.58rem;
+}
+
+.h-\[0\.5rem\] {
+  height: 0.5rem;
+}
+
+.h-\[0\.75rem\] {
+  height: 0.75rem;
+}
+
+.h-\[0\.81rem\] {
+  height: 0.81rem;
+}
+
+.h-\[0\.88rem\] {
+  height: 0.88rem;
+}
+
+.h-\[0\.94rem\] {
+  height: 0.94rem;
+}
+
+.h-\[1\.02rem\] {
+  height: 1.02rem;
+}
+
+.h-\[1\.08rem\] {
+  height: 1.08rem;
+}
+
+.h-\[1\.13rem\] {
+  height: 1.13rem;
+}
+
+.h-\[1\.2rem\] {
+  height: 1.2rem;
+}
+
+.h-\[1\.31rem\] {
+  height: 1.31rem;
+}
+
 .h-\[1\.38rem\] {
   height: 1.38rem;
 }
@@ -960,8 +993,20 @@ button:hover{
   height: 1.5rem;
 }
 
+.h-\[1\.63rem\] {
+  height: 1.63rem;
+}
+
+.h-\[1\.81rem\] {
+  height: 1.81rem;
+}
+
 .h-\[10\%\] {
   height: 10%;
+}
+
+.h-\[10\.37rem\] {
+  height: 10.37rem;
 }
 
 .h-\[10\.44rem\] {
@@ -976,8 +1021,8 @@ button:hover{
   height: 100%;
 }
 
-.h-\[10rem\] {
-  height: 10rem;
+.h-\[11\.66rem\] {
+  height: 11.66rem;
 }
 
 .h-\[11\.9rem\] {
@@ -1004,6 +1049,10 @@ button:hover{
   height: 16.35rem;
 }
 
+.h-\[16\.64rem\] {
+  height: 16.64rem;
+}
+
 .h-\[16\.88rem\] {
   height: 16.88rem;
 }
@@ -1024,16 +1073,44 @@ button:hover{
   height: 18.96rem;
 }
 
+.h-\[1rem\] {
+  height: 1rem;
+}
+
+.h-\[2\.06rem\] {
+  height: 2.06rem;
+}
+
+.h-\[2\.23rem\] {
+  height: 2.23rem;
+}
+
+.h-\[2\.25rem\] {
+  height: 2.25rem;
+}
+
+.h-\[2\.27rem\] {
+  height: 2.27rem;
+}
+
+.h-\[2\.37rem\] {
+  height: 2.37rem;
+}
+
 .h-\[2\.56rem\] {
   height: 2.56rem;
 }
 
-.h-\[2\.75rem\] {
-  height: 2.75rem;
+.h-\[2\.5rem\] {
+  height: 2.5rem;
 }
 
-.h-\[2\.7rem\] {
-  height: 2.7rem;
+.h-\[2\.67rem\] {
+  height: 2.67rem;
+}
+
+.h-\[2\.75rem\] {
+  height: 2.75rem;
 }
 
 .h-\[2\.94rem\] {
@@ -1076,6 +1153,10 @@ button:hover{
   height: 24.69rem;
 }
 
+.h-\[24\.75rem\] {
+  height: 24.75rem;
+}
+
 .h-\[24rem\] {
   height: 24rem;
 }
@@ -1100,12 +1181,20 @@ button:hover{
   height: 2rem;
 }
 
+.h-\[3\.04rem\] {
+  height: 3.04rem;
+}
+
 .h-\[3\.06rem\] {
   height: 3.06rem;
 }
 
 .h-\[3\.13rem\] {
   height: 3.13rem;
+}
+
+.h-\[3\.42rem\] {
+  height: 3.42rem;
 }
 
 .h-\[3\.5rem\] {
@@ -1152,6 +1241,10 @@ button:hover{
   height: 38.69rem;
 }
 
+.h-\[4\.25rem\] {
+  height: 4.25rem;
+}
+
 .h-\[4\.37rem\] {
   height: 4.37rem;
 }
@@ -1188,12 +1281,24 @@ button:hover{
   height: 5.5rem;
 }
 
+.h-\[5\.83rem\] {
+  height: 5.83rem;
+}
+
 .h-\[50\%\] {
   height: 50%;
 }
 
 .h-\[6\.25rem\] {
   height: 6.25rem;
+}
+
+.h-\[6\.2rem\] {
+  height: 6.2rem;
+}
+
+.h-\[6\.46rem\] {
+  height: 6.46rem;
 }
 
 .h-\[61\.13rem\] {
@@ -1208,12 +1313,32 @@ button:hover{
   height: 6rem;
 }
 
+.h-\[7\.08rem\] {
+  height: 7.08rem;
+}
+
 .h-\[7\.1rem\] {
   height: 7.1rem;
 }
 
+.h-\[7\.34rem\] {
+  height: 7.34rem;
+}
+
+.h-\[7\.48rem\] {
+  height: 7.48rem;
+}
+
+.h-\[7\.56rem\] {
+  height: 7.56rem;
+}
+
 .h-\[7\.5rem\] {
   height: 7.5rem;
+}
+
+.h-\[7\.73rem\] {
+  height: 7.73rem;
 }
 
 .h-\[7\.88rem\] {
@@ -1232,6 +1357,14 @@ button:hover{
   height: 73.49rem;
 }
 
+.h-\[7rem\] {
+  height: 7rem;
+}
+
+.h-\[8\.21rem\] {
+  height: 8.21rem;
+}
+
 .h-\[8\.31rem\] {
   height: 8.31rem;
 }
@@ -1242,6 +1375,10 @@ button:hover{
 
 .h-\[8\.81rem\] {
   height: 8.81rem;
+}
+
+.h-\[8\.9rem\] {
+  height: 8.9rem;
 }
 
 .h-\[9\.56rem\] {
@@ -1256,200 +1393,28 @@ button:hover{
   height: 9rem;
 }
 
-.h-\[3rem\] {
-  height: 3rem;
+.w-\[0\.21rem\] {
+  width: 0.21rem;
 }
 
-.h-\[2\.5rem\] {
-  height: 2.5rem;
+.w-\[0\.32rem\] {
+  width: 0.32rem;
 }
 
-.h-\[8\.9rem\] {
-  height: 8.9rem;
+.w-\[0\.34rem\] {
+  width: 0.34rem;
 }
 
-.h-\[11\.66rem\] {
-  height: 11.66rem;
-}
-
-.h-\[4\.83rem\] {
-  height: 4.83rem;
-}
-
-.h-\[3\.25rem\] {
-  height: 3.25rem;
-}
-
-.h-\[2\.25rem\] {
-  height: 2.25rem;
-}
-
-.h-\[0\.88rem\] {
-  height: 0.88rem;
-}
-
-.h-\[0\.71rem\] {
-  height: 0.71rem;
-}
-
-.h-\[6\.21rem\] {
-  height: 6.21rem;
-}
-
-.h-\[8\.21rem\] {
-  height: 8.21rem;
-}
-
-.h-\[6\.83rem\] {
-  height: 6.83rem;
-}
-
-.h-\[5\.25rem\] {
-  height: 5.25rem;
-}
-
-.h-\[1\.88rem\] {
-  height: 1.88rem;
-}
-
-.h-\[4\.25rem\] {
-  height: 4.25rem;
-}
-
-.h-\[1\.71rem\] {
-  height: 1.71rem;
-}
-
-.h-\[1\.3rem\] {
-  height: 1.3rem;
-}
-
-.h-\[1rem\] {
-  height: 1rem;
-}
-
-.h-\[5\.83rem\] {
-  height: 5.83rem;
-}
-
-.h-\[2\.37rem\] {
-  height: 2.37rem;
-}
-
-.h-\[0\.81rem\] {
-  height: 0.81rem;
-}
-
-.h-\[1\.31rem\] {
-  height: 1.31rem;
-}
-
-.h-\[15\.64rem\] {
-  height: 15.64rem;
-}
-
-.h-\[7\.56rem\] {
-  height: 7.56rem;
-}
-
-.h-\[3\.42rem\] {
-  height: 3.42rem;
-}
-
-.h-\[0\.75rem\] {
-  height: 0.75rem;
-}
-
-.h-\[17\.64rem\] {
-  height: 17.64rem;
-}
-
-.h-\[73\.75rem\] {
-  height: 73.75rem;
-}
-
-.h-\[16\.64rem\] {
-  height: 16.64rem;
-}
-
-.h-\[3\.23rem\] {
-  height: 3.23rem;
-}
-
-.h-\[55\.75rem\] {
-  height: 55.75rem;
-}
-
-.h-\[60\.75rem\] {
-  height: 60.75rem;
-}
-
-.h-\[25\.75rem\] {
-  height: 25.75rem;
-}
-
-.h-\[24\.75rem\] {
-  height: 24.75rem;
-}
-
-.h-\[7rem\] {
-  height: 7rem;
-}
-
-.h-\[7\.08rem\] {
-  height: 7.08rem;
-}
-
-.h-\[3\.04rem\] {
-  height: 3.04rem;
-}
-
-.h-\[2\.06rem\] {
-  height: 2.06rem;
-}
-
-.h-\[1\.08rem\] {
-  height: 1.08rem;
-}
-
-.h-\[6\.08rem\] {
-  height: 6.08rem;
-}
-
-.h-\[10\.37rem\] {
-  height: 10.37rem;
-}
-
-.h-\[2\.27rem\] {
-  height: 2.27rem;
-}
-
-.h-\[0\.94rem\] {
-  height: 0.94rem;
-}
-
-.h-\[1\.13rem\] {
-  height: 1.13rem;
-}
-
-.h-\[7\.48rem\] {
-  height: 7.48rem;
-}
-
-.h-\[6\.46rem\] {
-  height: 6.46rem;
-}
-
-.h-\[0\.49rem\] {
-  height: 0.49rem;
-}
-
-.h-\[0\.5rem\] {
-  height: 0.5rem;
+.w-\[0\.49rem\] {
+  width: 0.49rem;
 }
 
 .w-\[0\.64rem\] {
   width: 0.64rem;
+}
+
+.w-\[0\.71rem\] {
+  width: 0.71rem;
 }
 
 .w-\[1\.43rem\] {
@@ -1458,6 +1423,10 @@ button:hover{
 
 .w-\[1\.5rem\] {
   width: 1.5rem;
+}
+
+.w-\[1\.77rem\] {
+  width: 1.77rem;
 }
 
 .w-\[10\.54rem\] {
@@ -1472,16 +1441,16 @@ button:hover{
   width: 100%;
 }
 
+.w-\[10rem\] {
+  width: 10rem;
+}
+
 .w-\[11\.5rem\] {
   width: 11.5rem;
 }
 
 .w-\[11\.63rem\] {
   width: 11.63rem;
-}
-
-.w-\[11rem\] {
-  width: 11rem;
 }
 
 .w-\[12\.56rem\] {
@@ -1500,6 +1469,18 @@ button:hover{
   width: 15.81rem;
 }
 
+.w-\[15rem\] {
+  width: 15rem;
+}
+
+.w-\[16\.89rem\] {
+  width: 16.89rem;
+}
+
+.w-\[16\.92rem\] {
+  width: 16.92rem;
+}
+
 .w-\[16rem\] {
   width: 16rem;
 }
@@ -1508,8 +1489,48 @@ button:hover{
   width: 18.06rem;
 }
 
+.w-\[18\.33rem\] {
+  width: 18.33rem;
+}
+
 .w-\[19\.63rem\] {
   width: 19.63rem;
+}
+
+.w-\[19\.76rem\] {
+  width: 19.76rem;
+}
+
+.w-\[1rem\] {
+  width: 1rem;
+}
+
+.w-\[2\.06rem\] {
+  width: 2.06rem;
+}
+
+.w-\[2\.19\] {
+  width: 2.19;
+}
+
+.w-\[2\.19rem\] {
+  width: 2.19rem;
+}
+
+.w-\[2\.1rem\] {
+  width: 2.1rem;
+}
+
+.w-\[2\.61rem\] {
+  width: 2.61rem;
+}
+
+.w-\[2\.64rem\] {
+  width: 2.64rem;
+}
+
+.w-\[20\.17rem\] {
+  width: 20.17rem;
 }
 
 .w-\[20\.94rem\] {
@@ -1556,8 +1577,28 @@ button:hover{
   width: 2rem;
 }
 
+.w-\[3\.06rem\] {
+  width: 3.06rem;
+}
+
+.w-\[3\.09rem\] {
+  width: 3.09rem;
+}
+
 .w-\[3\.14rem\] {
   width: 3.14rem;
+}
+
+.w-\[3\.38rem\] {
+  width: 3.38rem;
+}
+
+.w-\[3\.46rem\] {
+  width: 3.46rem;
+}
+
+.w-\[3\.8rem\] {
+  width: 3.8rem;
 }
 
 .w-\[30\%\] {
@@ -1584,12 +1625,40 @@ button:hover{
   width: 32.88rem;
 }
 
+.w-\[3rem\] {
+  width: 3rem;
+}
+
+.w-\[4\.5rem\] {
+  width: 4.5rem;
+}
+
 .w-\[40\%\] {
   width: 40%;
 }
 
 .w-\[45\%\] {
   width: 45%;
+}
+
+.w-\[5\.1rem\] {
+  width: 5.1rem;
+}
+
+.w-\[5\.23rem\] {
+  width: 5.23rem;
+}
+
+.w-\[5\.5rem\] {
+  width: 5.5rem;
+}
+
+.w-\[5\.63rem\] {
+  width: 5.63rem;
+}
+
+.w-\[5\.88rem\] {
+  width: 5.88rem;
 }
 
 .w-\[51\.38rem\] {
@@ -1600,8 +1669,20 @@ button:hover{
   width: 55%;
 }
 
+.w-\[6\.09rem\] {
+  width: 6.09rem;
+}
+
+.w-\[6\.13rem\] {
+  width: 6.13rem;
+}
+
 .w-\[6\.25rem\] {
   width: 6.25rem;
+}
+
+.w-\[6\.81rem\] {
+  width: 6.81rem;
 }
 
 .w-\[60\%\] {
@@ -1612,12 +1693,28 @@ button:hover{
   width: 6rem;
 }
 
+.w-\[7\.08rem\] {
+  width: 7.08rem;
+}
+
+.w-\[7\.4rem\] {
+  width: 7.4rem;
+}
+
 .w-\[7\.56rem\] {
   width: 7.56rem;
 }
 
+.w-\[7\.69rem\] {
+  width: 7.69rem;
+}
+
 .w-\[7\.81rem\] {
   width: 7.81rem;
+}
+
+.w-\[7\.87rem\] {
+  width: 7.87rem;
 }
 
 .w-\[7\.8rem\] {
@@ -1632,12 +1729,24 @@ button:hover{
   width: 70%;
 }
 
+.w-\[8\.52rem\] {
+  width: 8.52rem;
+}
+
 .w-\[8\.63rem\] {
   width: 8.63rem;
 }
 
+.w-\[8\.66rem\] {
+  width: 8.66rem;
+}
+
 .w-\[8\.94rem\] {
   width: 8.94rem;
+}
+
+.w-\[8\.95rem\] {
+  width: 8.95rem;
 }
 
 .w-\[80\%\] {
@@ -1650,6 +1759,10 @@ button:hover{
 
 .w-\[9\.25rem\] {
   width: 9.25rem;
+}
+
+.w-\[9\.41rem\] {
+  width: 9.41rem;
 }
 
 .w-\[90\%\] {
@@ -1668,158 +1781,6 @@ button:hover{
   width: 9rem;
 }
 
-.w-\[18\.33rem\] {
-  width: 18.33rem;
-}
-
-.w-\[6\.95rem\] {
-  width: 6.95rem;
-}
-
-.w-\[7\.95rem\] {
-  width: 7.95rem;
-}
-
-.w-\[6\.4rem\] {
-  width: 6.4rem;
-}
-
-.w-\[6\.69rem\] {
-  width: 6.69rem;
-}
-
-.w-\[3\.68rem\] {
-  width: 3.68rem;
-}
-
-.w-\[1\.82rem\] {
-  width: 1.82rem;
-}
-
-.w-\[1\.76rem\] {
-  width: 1.76rem;
-}
-
-.w-\[7\.41rem\] {
-  width: 7.41rem;
-}
-
-.w-\[9\.41rem\] {
-  width: 9.41rem;
-}
-
-.w-\[9\.9rem\] {
-  width: 9.9rem;
-}
-
-.w-\[7\.4rem\] {
-  width: 7.4rem;
-}
-
-.w-\[7\.69rem\] {
-  width: 7.69rem;
-}
-
-.w-\[8\.95rem\] {
-  width: 8.95rem;
-}
-
-.w-\[5\.68rem\] {
-  width: 5.68rem;
-}
-
-.w-\[5\.3rem\] {
-  width: 5.3rem;
-}
-
-.w-\[4\.5rem\] {
-  width: 4.5rem;
-}
-
-.w-\[16\.89rem\] {
-  width: 16.89rem;
-}
-
-.w-\[13\.75rem\] {
-  width: 13.75rem;
-}
-
-.w-\[13\.76rem\] {
-  width: 13.76rem;
-}
-
-.w-\[15rem\] {
-  width: 15rem;
-}
-
-.w-\[18\.56rem\] {
-  width: 18.56rem;
-}
-
-.w-\[7\.87rem\] {
-  width: 7.87rem;
-}
-
-.w-\[8\.52rem\] {
-  width: 8.52rem;
-}
-
-.w-\[5\.5rem\] {
-  width: 5.5rem;
-}
-
-.w-\[6\.81rem\] {
-  width: 6.81rem;
-}
-
-.w-\[8\.23rem\] {
-  width: 8.23rem;
-}
-
-.w-\[7\.08rem\] {
-  width: 7.08rem;
-}
-
-.w-\[8\.66rem\] {
-  width: 8.66rem;
-}
-
-.w-\[5\.63rem\] {
-  width: 5.63rem;
-}
-
-.w-\[2\.64rem\] {
-  width: 2.64rem;
-}
-
-.w-\[20\.17rem\] {
-  width: 20.17rem;
-}
-
-.w-\[16\.92rem\] {
-  width: 16.92rem;
-}
-
-.w-\[19\.76rem\] {
-  width: 19.76rem;
-}
-
-.w-\[6\.09rem\] {
-  width: 6.09rem;
-}
-
-.w-\[2\.06rem\] {
-  width: 2.06rem;
-}
-
-.w-\[0\.49rem\] {
-  width: 0.49rem;
-}
-
-.w-\[0\.21rem\] {
-  width: 0.21rem;
-}
-
 .list-none {
   list-style-type: none;
 }
@@ -1836,6 +1797,10 @@ button:hover{
   justify-content: space-between;
 }
 
+.gap-\[0\.2rem\] {
+  gap: 0.2rem;
+}
+
 .gap-\[0\.63rem\] {
   gap: 0.63rem;
 }
@@ -1844,12 +1809,32 @@ button:hover{
   gap: 2.06rem;
 }
 
+.rounded-\[0\.11rem\] {
+  border-radius: 0.11rem;
+}
+
+.rounded-\[0\.39rem\] {
+  border-radius: 0.39rem;
+}
+
+.rounded-\[0\.55rem\] {
+  border-radius: 0.55rem;
+}
+
 .rounded-\[0\.5rem\] {
   border-radius: 0.5rem;
 }
 
 .rounded-\[1\.25rem\] {
   border-radius: 1.25rem;
+}
+
+.rounded-\[1\.27rem\] {
+  border-radius: 1.27rem;
+}
+
+.rounded-\[1\.42rem\] {
+  border-radius: 1.42rem;
 }
 
 .rounded-\[1\.56rem\] {
@@ -1864,6 +1849,10 @@ button:hover{
   border-radius: 2.45rem;
 }
 
+.rounded-\[4\.26rem\] {
+  border-radius: 4.26rem;
+}
+
 .rounded-\[5\.47rem\] {
   border-radius: 5.47rem;
 }
@@ -1876,20 +1865,8 @@ button:hover{
   border-radius: 7.11rem;
 }
 
-.rounded-\[1\.27rem\] {
-  border-radius: 1.27rem;
-}
-
-.rounded-\[4\.26rem\] {
-  border-radius: 4.26rem;
-}
-
-.rounded-\[0\.39rem\] {
-  border-radius: 0.39rem;
-}
-
-.rounded-\[0\.55rem\] {
-  border-radius: 0.55rem;
+.rounded-\[7\.41rem\] {
+  border-radius: 7.41rem;
 }
 
 .border-2 {
@@ -1910,71 +1887,22 @@ button:hover{
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
-.bg-red-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(254 249 195 / var(--tw-bg-opacity));
-}
-
-.bg-blue-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(191 219 254 / var(--tw-bg-opacity));
-}
-
-.bg-blue-100 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(219 234 254 / var(--tw-bg-opacity));
-}
-
-.bg-pink-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(244 114 182 / var(--tw-bg-opacity));
-}
-
-.bg-amber-50 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 251 235 / var(--tw-bg-opacity));
-}
-
-.bg-pink-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(251 207 232 / var(--tw-bg-opacity));
-}
-
-.bg-pink-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 168 212 / var(--tw-bg-opacity));
-}
-
-.bg-yellow-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
-}
-
-.bg-purple-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
-}
-
-.p-\[0\.63rem\] {
-  padding: 0.63rem;
 }
 
 .p-\[0\.13rem\] {
   padding: 0.13rem;
 }
 
-.p-\[0\.21rem\] {
-  padding: 0.21rem;
+.p-\[0\.63rem\] {
+  padding: 0.63rem;
+}
+
+.py-\[1\.5rem\] {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .py-\[1\.78rem\] {
@@ -2007,13 +1935,20 @@ button:hover{
   padding-bottom: 4.75rem;
 }
 
-.py-\[1\.5rem\] {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pt-\[0\.17rem\] {
+  padding-top: 0.17rem;
+}
+
+.pt-\[0\.21rem\] {
+  padding-top: 0.21rem;
 }
 
 .pt-\[0\.63rem\] {
   padding-top: 0.63rem;
+}
+
+.pt-\[0\.97rem\] {
+  padding-top: 0.97rem;
 }
 
 .pt-\[1\.5rem\] {
@@ -2026,18 +1961,6 @@ button:hover{
 
 .pt-\[2\.25rem\] {
   padding-top: 2.25rem;
-}
-
-.pt-\[3rem\] {
-  padding-top: 3rem;
-}
-
-.pt-\[0\.17rem\] {
-  padding-top: 0.17rem;
-}
-
-.pt-\[0\.21rem\] {
-  padding-top: 0.21rem;
 }
 
 .text-center {
@@ -2064,6 +1987,74 @@ button:hover{
   line-height: 1;
 }
 
+.text-\[0\.23rem\] {
+  font-size: 0.23rem;
+}
+
+.text-\[0\.25rem\] {
+  font-size: 0.25rem;
+}
+
+.text-\[0\.28rem\] {
+  font-size: 0.28rem;
+}
+
+.text-\[0\.33rem\] {
+  font-size: 0.33rem;
+}
+
+.text-\[0\.34rem\] {
+  font-size: 0.34rem;
+}
+
+.text-\[0\.35rem\] {
+  font-size: 0.35rem;
+}
+
+.text-\[0\.3rem\] {
+  font-size: 0.3rem;
+}
+
+.text-\[0\.42rem\] {
+  font-size: 0.42rem;
+}
+
+.text-\[0\.49rem\] {
+  font-size: 0.49rem;
+}
+
+.text-\[0\.56rem\] {
+  font-size: 0.56rem;
+}
+
+.text-\[0\.5rem\] {
+  font-size: 0.5rem;
+}
+
+.text-\[0\.63rem\] {
+  font-size: 0.63rem;
+}
+
+.text-\[0\.65rem\] {
+  font-size: 0.65rem;
+}
+
+.text-\[0\.75rem\] {
+  font-size: 0.75rem;
+}
+
+.text-\[0\.7rem\] {
+  font-size: 0.7rem;
+}
+
+.text-\[0\.82rem\] {
+  font-size: 0.82rem;
+}
+
+.text-\[6px\] {
+  font-size: 6px;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -2084,84 +2075,12 @@ button:hover{
   line-height: 1rem;
 }
 
-.text-\[4\.89px\] {
-  font-size: 4.89px;
+.font-\[500\] {
+  font-weight: 500;
 }
 
-.text-\[9\.77px\] {
-  font-size: 9.77px;
-}
-
-.text-\[3\.67px\] {
-  font-size: 3.67px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[12px\] {
-  font-size: 12px;
-}
-
-.text-\[0\.75rem\] {
-  font-size: 0.75rem;
-}
-
-.text-\[6px\] {
-  font-size: 6px;
-}
-
-.text-\[5px\] {
-  font-size: 5px;
-}
-
-.text-\[4px\] {
-  font-size: 4px;
-}
-
-.text-\[0\.25rem\] {
-  font-size: 0.25rem;
-}
-
-.text-\[0\.7rem\] {
-  font-size: 0.7rem;
-}
-
-.text-\[0\.35rem\] {
-  font-size: 0.35rem;
-}
-
-.text-\[0\.63rem\] {
-  font-size: 0.63rem;
-}
-
-.text-\[0\.42rem\] {
-  font-size: 0.42rem;
-}
-
-.text-\[1\.02rem\] {
-  font-size: 1.02rem;
-}
-
-.text-\[0\.56rem\] {
-  font-size: 0.56rem;
-}
-
-.text-\[0\.34rem\] {
-  font-size: 0.34rem;
-}
-
-.text-\[0\.82rem\] {
-  font-size: 0.82rem;
-}
-
-.text-\[0\.49rem\] {
-  font-size: 0.49rem;
-}
-
-.text-\[0\.33rem\] {
-  font-size: 0.33rem;
+.font-\[700\] {
+  font-weight: 700;
 }
 
 .font-bold {
@@ -2180,48 +2099,48 @@ button:hover{
   font-weight: 600;
 }
 
-.font-\[700\] {
-  font-weight: 700;
+.leading-\[0\.28rem\] {
+  line-height: 0.28rem;
 }
 
-.font-\[500\] {
-  font-weight: 500;
-}
-
-.leading-\[11\.83px\] {
-  line-height: 11.83px;
-}
-
-.leading-\[0\.82rem\] {
-  line-height: 0.82rem;
+.leading-\[0\.34rem\] {
+  line-height: 0.34rem;
 }
 
 .leading-\[0\.41rem\] {
   line-height: 0.41rem;
 }
 
-.leading-\[1\.2rem\] {
-  line-height: 1.2rem;
+.leading-\[0\.45rem\] {
+  line-height: 0.45rem;
 }
 
 .leading-\[0\.4rem\] {
   line-height: 0.4rem;
 }
 
-.leading-\[\] {
-  line-height: ;
-}
-
-.leading-\[0\.97rem\] {
-  line-height: 0.97rem;
+.leading-\[0\.57rem\] {
+  line-height: 0.57rem;
 }
 
 .leading-\[0\.58rem\] {
   line-height: 0.58rem;
 }
 
-.leading-\[0\.45rem\] {
-  line-height: 0.45rem;
+.leading-\[0\.82rem\] {
+  line-height: 0.82rem;
+}
+
+.leading-\[0\.97rem\] {
+  line-height: 0.97rem;
+}
+
+.leading-\[1\.2rem\] {
+  line-height: 1.2rem;
+}
+
+.leading-\[11\.83px\] {
+  line-height: 11.83px;
 }
 
 .text-\[\#6E6E6E\] {
@@ -2252,10 +2171,6 @@ button:hover{
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[0\.34\] {
-  color: 0.34;
 }
 
 @media not all and (min-width: 1024px) {
