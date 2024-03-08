@@ -5,8 +5,205 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <title>SafeHaven</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <section class="contact-page w-[100vw] min-h-[100vh] bg-[#EDEDED] font-[sans-serif]">
+        <nav class="w-[100%] h-[4.5rem] bg-white px-[7.31rem] py-[2.375rem] flex items-center justify-between">
+            <img src="../Images/contact-logo.svg" alt="">
+            <ul class="flex gap-[1.9rem]">
+                <li class="text-[#EAEAEA]">Home</li>
+                <li class="text-[#EAEAEA]">About</li>
+                <li class="text-[#9E9E9E]">Contact</li>
+            </ul>
+            <!-- resource library button -->
+            <a href="./resource.html" class="w-[11.63rem] h-[3.5remrem]">
+                <button class="bg-black text-white w-[100%] h-[3.5rem] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
+            </a>
+        </nav>
+        <div class="flex flex-col justify-center items-center mt-[4rem]">
+            <h1 class="text-[#0C0C0C] md:font-bold text-[2rem]">We’d love to hear from you</h1>
+            <p class="text-[#717171] text-[1rem]">Any question or remarks? Just write us a message.</p>
+        </div>
+
+        <!-- contact information and form starts here -->
+
+       <div class="contact mt-[5rem] mx-[5.68rem] w-[90%] h-[46rem] flex gap-[6rem]">
+        <div class="contact-info bg-[#2F2E2E] h-[100%] w-[36.75rem] pt-[3.3rem] pl-[1.9rem] pr-[6.19rem] pb-[3.01rem]">
+           <div>
+            <h1 class="text-[#fff] text-[1.5rem] md:font-bold">Contact Information</h1>
+            <p class="text-[#C9C9C9] text-[0.8rem] md:font-light">Say something to start a live chat!</p>
+           </div>
+<!-- 
+           contact details starts here -->
+           <div class="mt-[5.5rem]">
+                <div class="phone-numbers flex gap-[0.8rem]">
+                    <img class="w-[1rem] h-[1rem] mt-[0.2rem]" src="../Images/call-icon.svg" alt="">
+                    <ul class="numbers text-[#fff] text-[0.87rem]">
+                        <li>0816 160 4771</li>
+                        <li>0813 234 4507</li>
+                        <li>0913 353 4699</li>
+                    </ul>
+                </div>
+           </div>
+
+           <!-- Domestic violence hotline ends here -->
+            <div class="mt-[2rem] flex gap-[0.8rem]">
+                <img class="mt-[0.2rem] w-[1rem] h-[1rem]" src="../Images/call-icon.svg" alt="">
+               <div>
+                    <p class="text-[#fff] text-[0.87rem]">National Domestic Violence Hotline</p>
+                    <p class="text-[#fff] text-[0.87rem]">1-880-759-7235</p>
+               </div>
+            </div>
+            <!-- <div class="mt-[2rem] flex items-center gap-[0.8rem]">
+                <img class="w-[1rem] h-[1rem]" src="../Images/email.svg" alt="">
+                <div>
+                    <p class="text-[#fff] text-[0.87rem]">safehaventechteam@gmail.com</p>
+                </div>
+            </div> -->
+            <div class="mt-[2rem] flex gap-[0.8rem]">
+                <img class="w-[1rem] h-[1rem] mt-[0.2rem]" src="../Images/address.svg" alt="">
+                <div class="text-[#fff] text-[0.87rem] w-[30ch] mt-[]">The City of Refugee; No. 14, Station Road, Along Royalton Hotel, GRA, Ilorin.</div>
+            </div>
+            <div class="mt-[3.75rem]">
+                <p class="text-[#fff] text-[0.87rem] w-[28ch]">Please call 911, if you are a survivor in need of help urgently</p>
+            </div>
+            <!-- <div class="mt-[4.5rem] flex gap-[0.8rem]">
+                <img src="/Images/social1.svg" alt="">
+                <img src="/Images/social2.svg" alt="">
+                <img src="/Images/social3.svg" alt="">
+            </div> -->
+        </div>
+<!-- 
+        Form starts here -->
+        <div class="form mt-[0.5rem] w-[50rem]">
+            <div class="flex flex-col gap-[1rem]">
+                <p class="text-[0.8rem] text-[#8D8D8D]">First Name</p>
+                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="text" >
+            </div>
+            <div class="flex flex-col gap-[1rem] mt-[2rem]">
+                <p class="text-[0.8rem] text-[#8D8D8D]">Email</p>
+                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="email">
+        </div>
+        <div class="mt-[2rem] flex gap-[3rem]">
+            <div class="flex flex-col gap-[1rem]">
+                <p class="text-[0.8rem] text-[#8D8D8D]">Phone No.</p>
+                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+            </div>
+            <div class="flex flex-col gap-[1rem]">
+                <p class="text-[0.8rem] text-[#8D8D8D]">State</p>
+                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+            </div>
+            <div class="flex flex-col gap-[1rem]">
+                <p class="text-[0.8rem] text-[#8D8D8D]">Gender</p>
+                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+            </div>
+        </div>
+        <div class="mt-[2rem]">
+            <p class="text-[1rem] text-[#011C2A]">Select Subject?</p>
+            <div class="mt-[1.5rem] flex justify-between w-[35rem]">
+                <div class="flex items-center gap-[0.3rem]">
+                    <img class="w-[0.5rem]" src="/Images/vector1.svg" alt="">
+                    <p class="text-[0.7rem] text-[#011C2A]">General Inquiry</p>
+                </div>
+                <div class="flex items-center gap-[0.3rem]">
+                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
+                    <p class="text-[0.7rem] text-[#011C2A]">Feedback</p>
+                </div>
+                <div class="flex items-center gap-[0.3rem]">
+                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
+                    <p class="text-[0.7rem] text-[#011C2A]">Request</p>
+                </div>
+                <div class="flex items-center gap-[0.3rem]">
+                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
+                    <p class="text-[0.7rem] text-[#011C2A]">Question</p>
+                </div>
+            </div>
+            <div class="mt-[1.5rem]">
+                <p class="text-[#8D8D8D] text-[0.8rem]">Message</p>
+                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[7.5rem] mt-[0.5rem] rounded-[0.5rem] text-[0.8rem]" type="text" placeholder= "Type your message..">
+            </div>
+            <button type="submit" class="bg-black text-[#fff] w-[10rem] h-[2rem] mt-[0.5rem] rounded-[0.4rem] ml-[25rem]">Send</button>
+        </div>
+       </div>
+       
+    </section>
+     <!-- sixth section on lg -->
+    <section class="w-[100%] h-[24rem] pt-[2.25rem] mt-[1rem] bg-black text-white">
+
+        <!-- main content -->
+        <div class="w-[90%] h-[18.45rem] mx-auto mb-[2.3rem]">
+            <!-- top half -->
+            <div class="w-[100%] h-[8.7rem] mx-auto mb-[2.06rem] flex justify-between">
+                <!-- first div -->
+                <div class="w-[40%] h-[70%]">
+                    <div class="flex">
+                        <img src="/GROUP-6/Group6/Images/log.svg" alt="" class="w-[3.14rem] h-[4rem]">
+                        <div>
+                            <p class="font-bold text-3xl text-[#F4BD1A]">SafeHaven</p>
+                            <p class="font-bold text-3xl text-white">Tech Team</p></div>
+                    </div>
+                    <p class="mt-[1rem] text-xl">Empowering Survivors, Fostering Resilience</p>
+                </div>
+                <!-- second div -->
+                <div class="w-[55%] h-[90%] flex justify-between">
+                    <!-- Explore -->
+                    <div class="w-[9rem] h-[100%] mb-[1rem]">
+                        <p class=" mb-[0.5rem] font-semibold text-2xl">Explore</p>
+                        <p class=" mb-[0.5rem] text-lg">About Us</p>
+                        <p class=" mb-[0.5rem] text-lg">Contact Us</p>
+                        <p class="text-lg">Support Us</p>
+                    </div>
+                    <!-- library -->
+                    <div class="w-[9rem] h-[100%]">
+                        <p class=" mb-[0.5rem] font-semibold text-2xl">Library</p>
+                        <p class=" mb-[0.5rem] text-lg">Articles</p>
+                        <p class=" mb-[0.5rem] text-lg">Videos</p>
+                        <p class="text-lg">Materials</p>
+                    </div>
+                    <!-- Address -->
+                    <div class="w-[16rem] h-[50%]">
+                        <p class=" mb-[0.5rem] font-semibold text-2xl">Address</p>
+                        <p class="text-lg">No 14, Station Road, Along Royalton Hotel, GRA, Iloron.</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- bottom half -->
+            <div class="w-[100%] h-[8.7rem] mx-auto flex justify-between">
+                <!-- first div -->
+                <div class="pt-[1.5rem] w-[13rem]">
+                    <!-- social media platforms -->
+                    <div class="flex justify-between w-[7.8rem] h-[1.5rem] mb-[0.7rem]">
+                        <a href="https://www.instagram.com/webfalainitiative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="/GROUP-6/Group6/Images/1.svg" alt="" class="w-[1.43rem] h-[1.5rem]">
+                        </a>
+                        <a href="https://www.linkedin.com/company/webfala-digital-skills-for-all-initiative/">
+                            <img src="/GROUP-6/Group6/Images/2.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                        </a>
+                        <a href="https://www.facebook.com/webfalainitiative?mibextid=ZbWKwL">
+                            <img src="/GROUP-6/Group6/Images/3.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                        </a>
+                        <a href="https://x.com/Webfalainitiat1?s=20">
+                            <img src="/GROUP-6/Group6/Images/4.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                        </a>
+                    </div>
+                    <p class="mb-[0.7rem] text-xl">911, +2348188531849</p>
+                    <p class="text-xl">safehaven@gmail.com</p>
+                </div>
+                <!-- second div -->
+                <div class="w-[55%] h-[8.7rem] mt-[1rem]">
+                    <p class="flex gap-[0.63rem] text-xl items-center">
+                        <img src="/GROUP-6/Group6/Images/mail.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                        Subscribe To The SafeHaven Newsletter
+                    </p>
+                    <p class="text-sm mt-[1.38rem]">Email address*</p>
+                    <input type="email" class="bg-black border-solid border-2 rounded-[0.5rem] w-[20rem] h-[2.56rem]">
+                    <a href="">
+                        <button class="bg-white w-[9.25rem] h-[2.56rem] text-black rounded-[6.25rem] font-medium">Join us now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
