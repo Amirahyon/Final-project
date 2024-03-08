@@ -8,128 +8,141 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <section class="contact-page w-[100vw] min-h-[100vh] bg-[#EDEDED] font-[sans-serif]">
-        <nav class="w-[100%] h-[4.5rem] bg-white px-[7.31rem] py-[2.375rem] flex items-center justify-between">
-            <img src="../Images/contact-logo.svg" alt="">
-            <ul class="flex gap-[1.9rem]">
-                <li class="text-[#EAEAEA]">Home</li>
-                <li class="text-[#EAEAEA]">About</li>
-                <li class="text-[#9E9E9E]">Contact</li>
+    
+    <!-- first section on lg-->
+    <section class="bg-white w-[100%] h-[7.5rem] py-[2rem] max-lg:hidden">
+        <!-- nav bar -->
+        <div class="w-[80%] h-[3.5rem] mx-auto flex justify-between">
+            <!-- image -->
+            <img src="/GROUP-6/Group6/Images/logo.svg" alt="logo" class="w-[7.99rem] h-[2.75rem] my-[0.38rem]">
+
+            <!-- list -->
+            <ul class=" w-[23.94rem] my-[1rem] flex justify-between font-semibold text-xl">
+                <li>
+                    <a href="./homepage.html" class="text-[#9E9E9E]">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html" class="text-[#9E9E9E]">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
             </ul>
-            <!-- resource library button -->
-            <a href="./resource.html" class="w-[11.63rem] h-[3.5remrem]">
-                <button class="bg-black text-white w-[100%] h-[3.5rem] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
+
+            <!-- button -->
+            <a href="./resource.html" class="w-[11.63rem] h-[3.5rem]">
+                <button class="bg-black text-white w-[100%] h-[100%] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
             </a>
-        </nav>
-        <div class="flex flex-col justify-center items-center mt-[4rem]">
-            <h1 class="text-[#0C0C0C] md:font-bold text-[2rem]">We’d love to hear from you</h1>
-            <p class="text-[#717171] text-[1rem]">Any question or remarks? Just write us a message.</p>
+        </div>
+    </section>
+
+
+    <!-- contact page -->
+    <section class="contact-page w-[100vw] h-[67.5rem] mt-[8.38rem] bg-white font-[sans-serif]">
+        <!-- heading -->
+        <div class="w-[70%] h-[6rem] mx-auto pt-[1rem] text-center ">
+            <h1 class="text-[#0C0C0C] md:font-bold text-[3rem] w-[80%] h-[3.5rem] mx-auto leading-[3.52rem]">We'd love to hear from you</h1>
+            <p class="text-[#717171] text-[2.3rem] w-[100%] h-[1rem]">Any question or remarks? Just write us a message.</p>
         </div>
 
-        <!-- contact information and form starts here -->
+        <!-- main content -->
+        <div class="contact mt-[7.75rem] w-[90%] h-[58.06rem] mx-auto flex gap-[6rem]">
 
-       <div class="contact mt-[5rem] mx-[5.68rem] w-[90%] h-[46rem] flex gap-[6rem]">
-        <div class="contact-info bg-[#2F2E2E] h-[100%] w-[36.75rem] pt-[3.3rem] pl-[1.9rem] pr-[6.19rem] pb-[3.01rem]">
-           <div>
-            <h1 class="text-[#fff] text-[1.5rem] md:font-bold">Contact Information</h1>
-            <p class="text-[#C9C9C9] text-[0.8rem] md:font-light">Say something to start a live chat!</p>
-           </div>
-<!-- 
-           contact details starts here -->
-           <div class="mt-[5.5rem]">
-                <div class="phone-numbers flex gap-[0.8rem]">
-                    <img class="w-[1rem] h-[1rem] mt-[0.2rem]" src="../Images/call-icon.svg" alt="">
-                    <ul class="numbers text-[#fff] text-[0.87rem]">
-                        <li>0816 160 4771</li>
-                        <li>0813 234 4507</li>
-                        <li>0913 353 4699</li>
-                    </ul>
+            <!-- contact details -->
+            <div class="contact-info bg-black rounded-[1.25rem] h-[50.28rem] w-[27.69rem] pt-[2.89rem] pl-[1.74rem]">
+                <div class="h-[4.31rem]">
+                    <h1 class="text-white text-4xl md:font-bold">Contact Information</h1>
+                    <p class="text-[#C9C9C9] text-lg md:font-light">Say something to start a live chat!</p>
                 </div>
-           </div>
 
-           <!-- Domestic violence hotline ends here -->
-            <div class="mt-[2rem] flex gap-[0.8rem]">
-                <img class="mt-[0.2rem] w-[1rem] h-[1rem]" src="../Images/call-icon.svg" alt="">
-               <div>
-                    <p class="text-[#fff] text-[0.87rem]">National Domestic Violence Hotline</p>
-                    <p class="text-[#fff] text-[0.87rem]">1-880-759-7235</p>
-               </div>
-            </div>
-            <!-- <div class="mt-[2rem] flex items-center gap-[0.8rem]">
-                <img class="w-[1rem] h-[1rem]" src="../Images/email.svg" alt="">
-                <div>
-                    <p class="text-[#fff] text-[0.87rem]">safehaventechteam@gmail.com</p>
+                <!-- contact details starts here -->
+                <div class="mt-[5.47rem] h-[13.9rem]">
+                    <!-- phone numbers -->
+                    <div class="phone-numbers w-[10rem] h-[2.49rem] flex justify-between">
+                        <img class="w-[1.35rem] h-[1.35rem]" src="../Images/call-icon.svg" alt="">
+                        <div class="numbers w-[7rem] h-[2.44rem] text-white">
+                            <p>0816 160 4771</p>
+                            <p>0813 234 4507</p>
+                            <p>0913 353 4699</p>
+                        </div>
+                    </div>
+                    <!-- hotline -->
+                    <div class="mt-[5rem] w-[18.51rem] h-[1.63rem] flex justify-between">
+                        <img class="w-[1.35rem] h-[1.35rem]" src="../Images/call-icon.svg" alt="">
+                        <div class="w-[15.75rem] h-[100%] text-white">
+                            <p>National Domestic Violence Hotline</p>
+                            <p>1-880-759-7235</p>
+                        </div>
+                    </div>
+                    <!-- address -->
+                    <div class="mt-[5rem] w-[20.37rem] flex justify-between">
+                        <img class="w-[1.35rem] h-[1.35rem]" src="../Images/address.svg" alt="">
+                        <div class="text-white w-[17.61rem] mt-[]">
+                            <p>The City of Refugee; No. 14, Station Road, Along Royalton Hotel, GRA, Ilorin.</p>
+                        </div>
+                    </div>
                 </div>
-            </div> -->
-            <div class="mt-[2rem] flex gap-[0.8rem]">
-                <img class="w-[1rem] h-[1rem] mt-[0.2rem]" src="../Images/address.svg" alt="">
-                <div class="text-[#fff] text-[0.87rem] w-[30ch] mt-[]">The City of Refugee; No. 14, Station Road, Along Royalton Hotel, GRA, Ilorin.</div>
+
+                <!-- emergency -->
+                <div class="mt-[11.93rem]">
+                    <p class="text-white w-[21.17rem] text-2xl font-semibold">Please call 911, if you are a survivor in need of help urgently</p>
+                </div>
             </div>
-            <div class="mt-[3.75rem]">
-                <p class="text-[#fff] text-[0.87rem] w-[28ch]">Please call 911, if you are a survivor in need of help urgently</p>
+
+            <!-- Form starts here -->
+            <div class="form w-[39.75rem] h-[100%]">
+                <div class="flex flex-col gap-[1rem]">
+                    <p class="text-[0.8rem] text-[#8D8D8D]">First Name</p>
+                    <input class="bg-white border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="text" >
+                </div>
+                <div class="flex flex-col gap-[1rem] mt-[2rem]">
+                    <p class="text-[0.8rem] text-[#8D8D8D]">Email</p>
+                    <input class="bg-white border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="email">
+                </div>
+                <div class="mt-[2rem] flex gap-[3rem]">
+                    <div class="flex flex-col gap-[1rem]">
+                        <p class="text-[0.8rem] text-[#8D8D8D]">Phone No.</p>
+                        <input class="bg-white border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+                    </div>
+                    <div class="flex flex-col gap-[1rem]">
+                        <p class="text-[0.8rem] text-[#8D8D8D]">State</p>
+                        <input class="bg-white border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+                    </div>
+                    <div class="flex flex-col gap-[1rem]">
+                        <p class="text-[0.8rem] text-[#8D8D8D]">Gender</p>
+                        <input class="bg-white border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
+                    </div>
+                </div>
+                <div class="mt-[2rem]">
+                    <p class="text-xl text-[#011C2A]">Select Subject?</p>
+                    <div class="mt-[1.5rem] flex justify-between w-[35rem]">
+                        <input type="radio" name="question">
+                        <label for="">General Inquiry</label>
+                        <input type="radio" name="question">
+                        <label for="">Feedback</label>
+                        <input type="radio" name="question">
+                        <label for="">Request</label>
+                        <input type="radio" name="question">
+                        <label for="">Question</label>
+                    </div>
+                </div>
+                <div class="mt-[1.5rem]">
+                    <p class="text-[#8D8D8D] text-[0.8rem]">Message</p>
+                    <textarea name="" id="" cols="58" rows="10" placeholder="Write your message...." class="border-2 border-[#757574] rounded-[0.75rem] mt-[1rem] pt-[1rem] pl-[1rem] font-medium text-[1.13rem]"></textarea>
+                </div>
+                
+                <div class="flex">
+
+                    <a href=""><button type="submit" class="bg-black text-white text-2xl w-[15.94rem] h-[4.75rem] mt-[2rem] rounded-[0.4rem] ml-[19rem]">Send Message</button>
+                    </a>
+                </div>
             </div>
-            <!-- <div class="mt-[4.5rem] flex gap-[0.8rem]">
-                <img src="/Images/social1.svg" alt="">
-                <img src="/Images/social2.svg" alt="">
-                <img src="/Images/social3.svg" alt="">
-            </div> -->
         </div>
-<!-- 
-        Form starts here -->
-        <div class="form mt-[0.5rem] w-[50rem]">
-            <div class="flex flex-col gap-[1rem]">
-                <p class="text-[0.8rem] text-[#8D8D8D]">First Name</p>
-                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="text" >
-            </div>
-            <div class="flex flex-col gap-[1rem] mt-[2rem]">
-                <p class="text-[0.8rem] text-[#8D8D8D]">Email</p>
-                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[2.5rem] rounded-[0.5rem]" type="email">
-        </div>
-        <div class="mt-[2rem] flex gap-[3rem]">
-            <div class="flex flex-col gap-[1rem]">
-                <p class="text-[0.8rem] text-[#8D8D8D]">Phone No.</p>
-                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
-            </div>
-            <div class="flex flex-col gap-[1rem]">
-                <p class="text-[0.8rem] text-[#8D8D8D]">State</p>
-                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
-            </div>
-            <div class="flex flex-col gap-[1rem]">
-                <p class="text-[0.8rem] text-[#8D8D8D]">Gender</p>
-                <input class="bg-[#EDEDED] border border-black w-[9.54rem] h-[2.5rem] rounded-[0.5rem]" type="text">
-            </div>
-        </div>
-        <div class="mt-[2rem]">
-            <p class="text-[1rem] text-[#011C2A]">Select Subject?</p>
-            <div class="mt-[1.5rem] flex justify-between w-[35rem]">
-                <div class="flex items-center gap-[0.3rem]">
-                    <img class="w-[0.5rem]" src="/Images/vector1.svg" alt="">
-                    <p class="text-[0.7rem] text-[#011C2A]">General Inquiry</p>
-                </div>
-                <div class="flex items-center gap-[0.3rem]">
-                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
-                    <p class="text-[0.7rem] text-[#011C2A]">Feedback</p>
-                </div>
-                <div class="flex items-center gap-[0.3rem]">
-                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
-                    <p class="text-[0.7rem] text-[#011C2A]">Request</p>
-                </div>
-                <div class="flex items-center gap-[0.3rem]">
-                    <img class="w-[0.5rem]" src="/Images/vector2.svg" alt="">
-                    <p class="text-[0.7rem] text-[#011C2A]">Question</p>
-                </div>
-            </div>
-            <div class="mt-[1.5rem]">
-                <p class="text-[#8D8D8D] text-[0.8rem]">Message</p>
-                <input class="bg-[#EDEDED] border border-black w-[35rem] h-[7.5rem] mt-[0.5rem] rounded-[0.5rem] text-[0.8rem]" type="text" placeholder= "Type your message..">
-            </div>
-            <button type="submit" class="bg-black text-[#fff] w-[10rem] h-[2rem] mt-[0.5rem] rounded-[0.4rem] ml-[25rem]">Send</button>
-        </div>
-       </div>
        
     </section>
-     <!-- sixth section on lg -->
-    <section class="w-[100%] h-[24rem] pt-[2.25rem] mt-[1rem] bg-black text-white">
+
+    <!-- footer on lg -->
+    <section class="w-[100%] h-[24rem] pt-[2.25rem] mt-[10.97rem] bg-black text-white max-lg:hidden">
 
         <!-- main content -->
         <div class="w-[90%] h-[18.45rem] mx-auto mb-[2.3rem]">
@@ -141,7 +154,8 @@
                         <img src="/GROUP-6/Group6/Images/log.svg" alt="" class="w-[3.14rem] h-[4rem]">
                         <div>
                             <p class="font-bold text-3xl text-[#F4BD1A]">SafeHaven</p>
-                            <p class="font-bold text-3xl text-white">Tech Team</p></div>
+                            <p class="font-bold text-3xl text-white">Tech Team</p>
+                        </div>
                     </div>
                     <p class="mt-[1rem] text-xl">Empowering Survivors, Fostering Resilience</p>
                 </div>
@@ -150,8 +164,12 @@
                     <!-- Explore -->
                     <div class="w-[9rem] h-[100%] mb-[1rem]">
                         <p class=" mb-[0.5rem] font-semibold text-2xl">Explore</p>
-                        <p class=" mb-[0.5rem] text-lg">About Us</p>
-                        <p class=" mb-[0.5rem] text-lg">Contact Us</p>
+                        <a href="./about.html">
+                            <p class=" mb-[0.5rem] text-lg">About Us</p>
+                        </a>
+                        <a href="./contact.html">
+                            <p class=" mb-[0.5rem] text-lg">Contact Us</p>
+                        </a>
                         <p class="text-lg">Support Us</p>
                     </div>
                     <!-- library -->
@@ -197,13 +215,14 @@
                         <img src="/GROUP-6/Group6/Images/mail.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
                         Subscribe To The SafeHaven Newsletter
                     </p>
-                    <p class="text-sm mt-[1.38rem]">Email address*</p>
-                    <input type="email" class="bg-black border-solid border-2 rounded-[0.5rem] w-[20rem] h-[2.56rem]">
+                    <p class="text-sm mt-[1.38rem] mb-[0.5rem]">Email address</p>
+                    <input type="email" class="bg-black border-solid border-2 rounded-[0.5rem] w-[20rem] h-[2.56rem] mr-[0.5rem]">
                     <a href="">
                         <button class="bg-white w-[9.25rem] h-[2.56rem] text-black rounded-[6.25rem] font-medium">Join us now</button>
                     </a>
                 </div>
             </div>
         </div>
+    </section>
 </body>
 </html>
