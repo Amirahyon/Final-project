@@ -556,20 +556,22 @@ html, body{
 
 .menu{
   position: fixed;
-  right: 1rem;
+  right: 0;
   left: 0;
   bottom: 0;
   top: 0;
-  transform: translateY(-100%);
+  transform: translateY(-200%);
   transition: transform 0.3s;
+}
+
+.section-one{
+  width: 19.91rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 .show-menu{
   transform: translateY(0)
-}
-
-.close{
-  display: none;
 }
 
 a:hover{
@@ -580,22 +582,36 @@ button:hover{
   font-weight: bold;
 }
 
-.line{
-  font-weight: 700;
-  font-size: 48px;
-  line-height: 3.18rem;
-}
-
 .background{
   background: linear-gradient(90deg, #ABA7A7, #ECDE91)
 }
 
 .about{
   background-image: url(/GROUP-6/Group6/Images/about.svg);
+  background-size: cover;
 }
+
+/* @media screen and (min-width: 375px) {
+    .third{
+        background-color: chocolate
+    }
+
+    .a{
+        height: 13rem;
+    }
+
+    .one{
+        width: 15rem;
+        height: 13rem;
+    }
+} */
 
 .fixed {
   position: fixed;
+}
+
+.right-\[0\.5rem\] {
+  right: 0.5rem;
 }
 
 .right-\[1rem\] {
@@ -622,8 +638,9 @@ button:hover{
   margin: 0.63rem;
 }
 
-.m-\[25rem\] {
-  margin: 25rem;
+.mx-\[0\.15rem\] {
+  margin-left: 0.15rem;
+  margin-right: 0.15rem;
 }
 
 .mx-\[0\.17rem\] {
@@ -644,11 +661,6 @@ button:hover{
 .mx-\[2rem\] {
   margin-left: 2rem;
   margin-right: 2rem;
-}
-
-.mx-\[5\.68rem\] {
-  margin-left: 5.68rem;
-  margin-right: 5.68rem;
 }
 
 .mx-auto {
@@ -710,6 +722,10 @@ button:hover{
   margin-bottom: 0px;
 }
 
+.mb-\[0\.15rem\] {
+  margin-bottom: 0.15rem;
+}
+
 .mb-\[0\.18rem\] {
   margin-bottom: 0.18rem;
 }
@@ -730,8 +746,8 @@ button:hover{
   margin-bottom: 0.43rem;
 }
 
-.mb-\[0\.55rem\] {
-  margin-bottom: 0.55rem;
+.mb-\[0\.59rem\] {
+  margin-bottom: 0.59rem;
 }
 
 .mb-\[0\.5rem\] {
@@ -762,6 +778,10 @@ button:hover{
   margin-left: 0.5rem;
 }
 
+.ml-\[19rem\] {
+  margin-left: 19rem;
+}
+
 .ml-\[1rem\] {
   margin-left: 1rem;
 }
@@ -770,16 +790,24 @@ button:hover{
   margin-left: 2.5rem;
 }
 
-.ml-\[25rem\] {
-  margin-left: 25rem;
-}
-
 .ml-\[7\.5rem\] {
   margin-left: 7.5rem;
 }
 
 .mr-\[0\.5rem\] {
   margin-right: 0.5rem;
+}
+
+.mt-\[0\.12rem\] {
+  margin-top: 0.12rem;
+}
+
+.mt-\[0\.14rem\] {
+  margin-top: 0.14rem;
+}
+
+.mt-\[0\.15rem\] {
+  margin-top: 0.15rem;
 }
 
 .mt-\[0\.17rem\] {
@@ -830,6 +858,10 @@ button:hover{
   margin-top: 0.65rem;
 }
 
+.mt-\[0\.72rem\] {
+  margin-top: 0.72rem;
+}
+
 .mt-\[0\.87rem\] {
   margin-top: 0.87rem;
 }
@@ -838,8 +870,20 @@ button:hover{
   margin-top: 1.1rem;
 }
 
+.mt-\[1\.26rem\] {
+  margin-top: 1.26rem;
+}
+
 .mt-\[1\.2rem\] {
   margin-top: 1.2rem;
+}
+
+.mt-\[1\.32rem\] {
+  margin-top: 1.32rem;
+}
+
+.mt-\[1\.34rem\] {
+  margin-top: 1.34rem;
 }
 
 .mt-\[1\.38rem\] {
@@ -854,12 +898,28 @@ button:hover{
   margin-top: 1.5rem;
 }
 
+.mt-\[1\.63rem\] {
+  margin-top: 1.63rem;
+}
+
 .mt-\[1\.69rem\] {
   margin-top: 1.69rem;
 }
 
 .mt-\[10\.16rem\] {
   margin-top: 10.16rem;
+}
+
+.mt-\[10\.97rem\] {
+  margin-top: 10.97rem;
+}
+
+.mt-\[10rem\] {
+  margin-top: 10rem;
+}
+
+.mt-\[11\.93rem\] {
+  margin-top: 11.93rem;
 }
 
 .mt-\[18\.38rem\] {
@@ -870,8 +930,20 @@ button:hover{
   margin-top: 1rem;
 }
 
-.mt-\[2\.63rem\] {
-  margin-top: 2.63rem;
+.mt-\[2\.26rem\] {
+  margin-top: 2.26rem;
+}
+
+.mt-\[2\.56rem\] {
+  margin-top: 2.56rem;
+}
+
+.mt-\[2\.5rem\] {
+  margin-top: 2.5rem;
+}
+
+.mt-\[2\.65rem\] {
+  margin-top: 2.65rem;
 }
 
 .mt-\[2rem\] {
@@ -886,20 +958,12 @@ button:hover{
   margin-top: 3.69rem;
 }
 
-.mt-\[3\.75rem\] {
-  margin-top: 3.75rem;
-}
-
 .mt-\[3rem\] {
   margin-top: 3rem;
 }
 
 .mt-\[4\.31rem\] {
   margin-top: 4.31rem;
-}
-
-.mt-\[4\.5rem\] {
-  margin-top: 4.5rem;
 }
 
 .mt-\[4\.65rem\] {
@@ -912,6 +976,10 @@ button:hover{
 
 .mt-\[5\.25rem\] {
   margin-top: 5.25rem;
+}
+
+.mt-\[5\.47rem\] {
+  margin-top: 5.47rem;
 }
 
 .mt-\[5\.48rem\] {
@@ -938,88 +1006,24 @@ button:hover{
   margin-top: 7.9rem;
 }
 
+.mt-\[8\.38rem\] {
+  margin-top: 8.38rem;
+}
+
 .mt-\[\] {
   margin-top: ;
 }
 
-.mt-\[12\.38rem\] {
-  margin-top: 12.38rem;
+.mt-\[0\.23rem\] {
+  margin-top: 0.23rem;
 }
 
-.mt-\[9\.47rem\] {
-  margin-top: 9.47rem;
-}
-
-.mt-\[2\.25rem\] {
-  margin-top: 2.25rem;
+.mt-\[1\.3rem\] {
+  margin-top: 1.3rem;
 }
 
 .mt-\[1\.25rem\] {
   margin-top: 1.25rem;
-}
-
-.mt-\[10rem\] {
-  margin-top: 10rem;
-}
-
-.mt-\[7rem\] {
-  margin-top: 7rem;
-}
-
-.mt-\[5\.47rem\] {
-  margin-top: 5.47rem;
-}
-
-.mt-\[2\.93rem\] {
-  margin-top: 2.93rem;
-}
-
-.mt-\[5\.93rem\] {
-  margin-top: 5.93rem;
-}
-
-.mt-\[7\.93rem\] {
-  margin-top: 7.93rem;
-}
-
-.mt-\[9\.93rem\] {
-  margin-top: 9.93rem;
-}
-
-.mt-\[11\.93rem\] {
-  margin-top: 11.93rem;
-}
-
-.ml-\[5rem\] {
-  margin-left: 5rem;
-}
-
-.ml-\[20rem\] {
-  margin-left: 20rem;
-}
-
-.ml-\[19\.5rem\] {
-  margin-left: 19.5rem;
-}
-
-.ml-\[19\.3rem\] {
-  margin-left: 19.3rem;
-}
-
-.ml-\[19rem\] {
-  margin-left: 19rem;
-}
-
-.mt-\[10\.97rem\] {
-  margin-top: 10.97rem;
-}
-
-.mt-\[10\.38rem\] {
-  margin-top: 10.38rem;
-}
-
-.mt-\[8\.38rem\] {
-  margin-top: 8.38rem;
 }
 
 .block {
@@ -1058,6 +1062,14 @@ button:hover{
   height: 0.5rem;
 }
 
+.h-\[0\.69rem\] {
+  height: 0.69rem;
+}
+
+.h-\[0\.71rem\] {
+  height: 0.71rem;
+}
+
 .h-\[0\.75rem\] {
   height: 0.75rem;
 }
@@ -1086,6 +1098,10 @@ button:hover{
   height: 1.13rem;
 }
 
+.h-\[1\.16rem\] {
+  height: 1.16rem;
+}
+
 .h-\[1\.2rem\] {
   height: 1.2rem;
 }
@@ -1094,8 +1110,20 @@ button:hover{
   height: 1.31rem;
 }
 
+.h-\[1\.35rem\] {
+  height: 1.35rem;
+}
+
 .h-\[1\.38rem\] {
   height: 1.38rem;
+}
+
+.h-\[1\.44rem\] {
+  height: 1.44rem;
+}
+
+.h-\[1\.53rem\] {
+  height: 1.53rem;
 }
 
 .h-\[1\.5rem\] {
@@ -1108,6 +1136,22 @@ button:hover{
 
 .h-\[1\.81rem\] {
   height: 1.81rem;
+}
+
+.h-\[1\.98rem\] {
+  height: 1.98rem;
+}
+
+.h-\[1\.9rem\] {
+  height: 1.9rem;
+}
+
+.h-\[10\%\] {
+  height: 10%;
+}
+
+.h-\[10\.13rem\] {
+  height: 10.13rem;
 }
 
 .h-\[10\.37rem\] {
@@ -1142,20 +1186,20 @@ button:hover{
   height: 13.31rem;
 }
 
-.h-\[14\.11rem\] {
-  height: 14.11rem;
+.h-\[13\.9rem\] {
+  height: 13.9rem;
 }
 
 .h-\[14\.63rem\] {
   height: 14.63rem;
 }
 
-.h-\[149\.88rem\] {
-  height: 149.88rem;
+.h-\[14\.96rem\] {
+  height: 14.96rem;
 }
 
-.h-\[16\.35rem\] {
-  height: 16.35rem;
+.h-\[149\.88rem\] {
+  height: 149.88rem;
 }
 
 .h-\[16\.64rem\] {
@@ -1206,6 +1250,14 @@ button:hover{
   height: 2.37rem;
 }
 
+.h-\[2\.44rem\] {
+  height: 2.44rem;
+}
+
+.h-\[2\.49rem\] {
+  height: 2.49rem;
+}
+
 .h-\[2\.56rem\] {
   height: 2.56rem;
 }
@@ -1240,6 +1292,10 @@ button:hover{
 
 .h-\[20\.91rem\] {
   height: 20.91rem;
+}
+
+.h-\[21\%\] {
+  height: 21%;
 }
 
 .h-\[22\.13rem\] {
@@ -1298,12 +1354,20 @@ button:hover{
   height: 3.04rem;
 }
 
-.h-\[3\.06rem\] {
-  height: 3.06rem;
-}
-
 .h-\[3\.13rem\] {
   height: 3.13rem;
+}
+
+.h-\[3\.23rem\] {
+  height: 3.23rem;
+}
+
+.h-\[3\.25rem\] {
+  height: 3.25rem;
+}
+
+.h-\[3\.28rem\] {
+  height: 3.28rem;
 }
 
 .h-\[3\.42rem\] {
@@ -1358,6 +1422,10 @@ button:hover{
   height: 4.25rem;
 }
 
+.h-\[4\.31rem\] {
+  height: 4.31rem;
+}
+
 .h-\[4\.37rem\] {
   height: 4.37rem;
 }
@@ -1374,8 +1442,12 @@ button:hover{
   height: 4.81rem;
 }
 
-.h-\[46rem\] {
-  height: 46rem;
+.h-\[4\.83rem\] {
+  height: 4.83rem;
+}
+
+.h-\[40\%\] {
+  height: 40%;
 }
 
 .h-\[4rem\] {
@@ -1406,6 +1478,14 @@ button:hover{
   height: 50%;
 }
 
+.h-\[50\.28rem\] {
+  height: 50.28rem;
+}
+
+.h-\[58\.06rem\] {
+  height: 58.06rem;
+}
+
 .h-\[6\.25rem\] {
   height: 6.25rem;
 }
@@ -1426,8 +1506,16 @@ button:hover{
   height: 61.31rem;
 }
 
+.h-\[67\.5rem\] {
+  height: 67.5rem;
+}
+
 .h-\[6rem\] {
   height: 6rem;
+}
+
+.h-\[7\%\] {
+  height: 7%;
 }
 
 .h-\[7\.08rem\] {
@@ -1458,6 +1546,10 @@ button:hover{
   height: 7.73rem;
 }
 
+.h-\[7\.86rem\] {
+  height: 7.86rem;
+}
+
 .h-\[7\.88rem\] {
   height: 7.88rem;
 }
@@ -1476,6 +1568,10 @@ button:hover{
 
 .h-\[7rem\] {
   height: 7rem;
+}
+
+.h-\[8\%\] {
+  height: 8%;
 }
 
 .h-\[8\.21rem\] {
@@ -1498,12 +1594,12 @@ button:hover{
   height: 8.9rem;
 }
 
-.h-\[9\.56rem\] {
-  height: 9.56rem;
-}
-
 .h-\[90\%\] {
   height: 90%;
+}
+
+.h-\[95\%\] {
+  height: 95%;
 }
 
 .h-\[9rem\] {
@@ -1514,68 +1610,16 @@ button:hover{
   height: 100%;
 }
 
-.h-\[71\.81rem\] {
-  height: 71.81rem;
+.h-\[30\%\] {
+  height: 30%;
 }
 
-.h-\[\] {
-  height: ;
+.h-\[24\.8rem\] {
+  height: 24.8rem;
 }
 
-.h-\[8\] {
-  height: 8;
-}
-
-.h-\[52\.28rem\] {
-  height: 52.28rem;
-}
-
-.h-\[58\.06rem\] {
-  height: 58.06rem;
-}
-
-.h-\[4\.31rem\] {
-  height: 4.31rem;
-}
-
-.h-\[13\.9rem\] {
-  height: 13.9rem;
-}
-
-.h-\[2\.49rem\] {
-  height: 2.49rem;
-}
-
-.h-\[1\.35rem\] {
-  height: 1.35rem;
-}
-
-.h-\[2\.44rem\] {
-  height: 2.44rem;
-}
-
-.h-\[50\.28rem\] {
-  height: 50.28rem;
-}
-
-.h-\[69\.81rem\] {
-  height: 69.81rem;
-}
-
-.h-\[65\.81rem\] {
-  height: 65.81rem;
-}
-
-.h-\[67\.81rem\] {
-  height: 67.81rem;
-}
-
-.h-\[67\.5rem\] {
-  height: 67.5rem;
-}
-
-.min-h-\[100vh\] {
-  min-height: 100vh;
+.h-\[68rem\] {
+  height: 68rem;
 }
 
 .w-\[0\.21rem\] {
@@ -1594,10 +1638,6 @@ button:hover{
   width: 0.49rem;
 }
 
-.w-\[0\.5rem\] {
-  width: 0.5rem;
-}
-
 .w-\[0\.64rem\] {
   width: 0.64rem;
 }
@@ -1606,8 +1646,16 @@ button:hover{
   width: 0.71rem;
 }
 
+.w-\[1\.35rem\] {
+  width: 1.35rem;
+}
+
 .w-\[1\.43rem\] {
   width: 1.43rem;
+}
+
+.w-\[1\.44rem\] {
+  width: 1.44rem;
 }
 
 .w-\[1\.5rem\] {
@@ -1646,6 +1694,10 @@ button:hover{
   width: 11.63rem;
 }
 
+.w-\[12\.41rem\] {
+  width: 12.41rem;
+}
+
 .w-\[12\.56rem\] {
   width: 12.56rem;
 }
@@ -1658,8 +1710,12 @@ button:hover{
   width: 13rem;
 }
 
-.w-\[15\.81rem\] {
-  width: 15.81rem;
+.w-\[15\.75rem\] {
+  width: 15.75rem;
+}
+
+.w-\[15\.94rem\] {
+  width: 15.94rem;
 }
 
 .w-\[15rem\] {
@@ -1674,8 +1730,16 @@ button:hover{
   width: 16.92rem;
 }
 
+.w-\[16\.9rem\] {
+  width: 16.9rem;
+}
+
 .w-\[16rem\] {
   width: 16rem;
+}
+
+.w-\[17\.61rem\] {
+  width: 17.61rem;
 }
 
 .w-\[18\.06rem\] {
@@ -1684,6 +1748,10 @@ button:hover{
 
 .w-\[18\.33rem\] {
   width: 18.33rem;
+}
+
+.w-\[18\.51rem\] {
+  width: 18.51rem;
 }
 
 .w-\[19\.63rem\] {
@@ -1722,8 +1790,16 @@ button:hover{
   width: 2.64rem;
 }
 
+.w-\[2\.84rem\] {
+  width: 2.84rem;
+}
+
 .w-\[20\.17rem\] {
   width: 20.17rem;
+}
+
+.w-\[20\.37rem\] {
+  width: 20.37rem;
 }
 
 .w-\[20\.94rem\] {
@@ -1732,6 +1808,10 @@ button:hover{
 
 .w-\[20rem\] {
   width: 20rem;
+}
+
+.w-\[21\.17rem\] {
+  width: 21.17rem;
 }
 
 .w-\[22\.42rem\] {
@@ -1750,6 +1830,10 @@ button:hover{
   width: 24.5rem;
 }
 
+.w-\[27\.69rem\] {
+  width: 27.69rem;
+}
+
 .w-\[28\.21rem\] {
   width: 28.21rem;
 }
@@ -1760,10 +1844,6 @@ button:hover{
 
 .w-\[28\.77rem\] {
   width: 28.77rem;
-}
-
-.w-\[28ch\] {
-  width: 28ch;
 }
 
 .w-\[29\.86rem\] {
@@ -1784,6 +1864,10 @@ button:hover{
 
 .w-\[3\.14rem\] {
   width: 3.14rem;
+}
+
+.w-\[3\.36rem\] {
+  width: 3.36rem;
 }
 
 .w-\[3\.38rem\] {
@@ -1814,10 +1898,6 @@ button:hover{
   width: 30.63rem;
 }
 
-.w-\[30ch\] {
-  width: 30ch;
-}
-
 .w-\[30rem\] {
   width: 30rem;
 }
@@ -1834,8 +1914,8 @@ button:hover{
   width: 35rem;
 }
 
-.w-\[36\.75rem\] {
-  width: 36.75rem;
+.w-\[39\.75rem\] {
+  width: 39.75rem;
 }
 
 .w-\[3rem\] {
@@ -1848,6 +1928,10 @@ button:hover{
 
 .w-\[40\%\] {
   width: 40%;
+}
+
+.w-\[43\%\] {
+  width: 43%;
 }
 
 .w-\[45\%\] {
@@ -1874,8 +1958,8 @@ button:hover{
   width: 5.88rem;
 }
 
-.w-\[50rem\] {
-  width: 50rem;
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .w-\[51\.38rem\] {
@@ -1884,6 +1968,10 @@ button:hover{
 
 .w-\[55\%\] {
   width: 55%;
+}
+
+.w-\[5rem\] {
+  width: 5rem;
 }
 
 .w-\[6\.09rem\] {
@@ -1918,16 +2006,8 @@ button:hover{
   width: 7.4rem;
 }
 
-.w-\[7\.56rem\] {
-  width: 7.56rem;
-}
-
 .w-\[7\.69rem\] {
   width: 7.69rem;
-}
-
-.w-\[7\.81rem\] {
-  width: 7.81rem;
 }
 
 .w-\[7\.87rem\] {
@@ -1944,6 +2024,18 @@ button:hover{
 
 .w-\[70\%\] {
   width: 70%;
+}
+
+.w-\[7rem\] {
+  width: 7rem;
+}
+
+.w-\[8\.09rem\] {
+  width: 8.09rem;
+}
+
+.w-\[8\.34rem\] {
+  width: 8.34rem;
 }
 
 .w-\[8\.52rem\] {
@@ -1994,10 +2086,6 @@ button:hover{
   width: 97%;
 }
 
-.w-\[99\%\] {
-  width: 99%;
-}
-
 .w-\[99\.357rem\] {
   width: 99.357rem;
 }
@@ -2010,92 +2098,20 @@ button:hover{
   width: 100%;
 }
 
-.w-\[27\.69rem\] {
-  width: 27.69rem;
+.w-\[53\%\] {
+  width: 53%;
 }
 
-.w-\[39\.75rem\] {
-  width: 39.75rem;
+.w-\[95\%\] {
+  width: 95%;
 }
 
-.w-\[7\.32rem\] {
-  width: 7.32rem;
-}
-
-.w-\[1\.35rem\] {
-  width: 1.35rem;
-}
-
-.w-\[4\.56rem\] {
-  width: 4.56rem;
-}
-
-.w-\[7rem\] {
-  width: 7rem;
-}
-
-.w-\[13\.51rem\] {
-  width: 13.51rem;
-}
-
-.w-\[10\.75rem\] {
-  width: 10.75rem;
-}
-
-.w-\[13\.75rem\] {
-  width: 13.75rem;
-}
-
-.w-\[15\.51rem\] {
-  width: 15.51rem;
-}
-
-.w-\[15\.75rem\] {
-  width: 15.75rem;
-}
-
-.w-\[20\.51rem\] {
-  width: 20.51rem;
-}
-
-.w-\[18\.51rem\] {
-  width: 18.51rem;
-}
-
-.w-\[15\] {
-  width: 15;
-}
-
-.w-\[20\.37rem\] {
-  width: 20.37rem;
-}
-
-.w-\[17\.61rem\] {
-  width: 17.61rem;
-}
-
-.w-\[16\.17rem\] {
-  width: 16.17rem;
-}
-
-.w-\[21\.17rem\] {
-  width: 21.17rem;
-}
-
-.w-\[15\.94rem\] {
-  width: 15.94rem;
-}
-
-.w-\[90vw\] {
-  width: 90vw;
+.w-\[96\%\] {
+  width: 96%;
 }
 
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -2106,10 +2122,6 @@ button:hover{
   align-items: center;
 }
 
-.justify-center {
-  justify-content: center;
-}
-
 .justify-between {
   justify-content: space-between;
 }
@@ -2118,20 +2130,8 @@ button:hover{
   gap: 0.2rem;
 }
 
-.gap-\[0\.3rem\] {
-  gap: 0.3rem;
-}
-
 .gap-\[0\.63rem\] {
   gap: 0.63rem;
-}
-
-.gap-\[0\.8rem\] {
-  gap: 0.8rem;
-}
-
-.gap-\[1\.9rem\] {
-  gap: 1.9rem;
 }
 
 .gap-\[1rem\] {
@@ -2146,28 +2146,16 @@ button:hover{
   gap: 6rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-3 {
-  gap: 0.75rem;
-}
-
-.gap-20 {
-  gap: 5rem;
-}
-
-.gap-32 {
-  gap: 8rem;
-}
-
 .rounded-\[0\.11rem\] {
   border-radius: 0.11rem;
 }
 
 .rounded-\[0\.39rem\] {
   border-radius: 0.39rem;
+}
+
+.rounded-\[0\.3rem\] {
+  border-radius: 0.3rem;
 }
 
 .rounded-\[0\.4rem\] {
@@ -2180,6 +2168,10 @@ button:hover{
 
 .rounded-\[0\.5rem\] {
   border-radius: 0.5rem;
+}
+
+.rounded-\[0\.75rem\] {
+  border-radius: 0.75rem;
 }
 
 .rounded-\[1\.25rem\] {
@@ -2198,6 +2190,14 @@ button:hover{
   border-radius: 1.56rem;
 }
 
+.rounded-\[1\.5rem\] {
+  border-radius: 1.5rem;
+}
+
+.rounded-\[1\.8rem\] {
+  border-radius: 1.8rem;
+}
+
 .rounded-\[2\.2rem\] {
   border-radius: 2.2rem;
 }
@@ -2210,8 +2210,8 @@ button:hover{
   border-radius: 4.26rem;
 }
 
-.rounded-\[5\.47rem\] {
-  border-radius: 5.47rem;
+.rounded-\[5\.89rem\] {
+  border-radius: 5.89rem;
 }
 
 .rounded-\[6\.25rem\] {
@@ -2226,12 +2226,12 @@ button:hover{
   border-radius: 7.41rem;
 }
 
-.rounded-\[\] {
-  border-radius: ;
+.rounded-\[1rem\] {
+  border-radius: 1rem;
 }
 
-.rounded-\[0\.75rem\] {
-  border-radius: 0.75rem;
+.rounded-\[0\.65rem\] {
+  border-radius: 0.65rem;
 }
 
 .border {
@@ -2246,49 +2246,14 @@ button:hover{
   border-style: solid;
 }
 
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
-}
-
-.border-\[\#272727\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(39 39 39 / var(--tw-border-opacity));
-}
-
-.border-\[\#3f3f35\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(63 63 53 / var(--tw-border-opacity));
-}
-
-.border-\[\#747460\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(116 116 96 / var(--tw-border-opacity));
-}
-
-.border-\[\#b3b393\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(179 179 147 / var(--tw-border-opacity));
-}
-
-.border-\[\#949488\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(148 148 136 / var(--tw-border-opacity));
-}
-
 .border-\[\#757574\] {
   --tw-border-opacity: 1;
   border-color: rgb(117 117 116 / var(--tw-border-opacity));
 }
 
-.bg-\[\#2F2E2E\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(47 46 46 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#EDEDED\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(237 237 237 / var(--tw-bg-opacity));
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-black {
@@ -2296,9 +2261,33 @@ button:hover{
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.bg-blue-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(96 165 250 / var(--tw-bg-opacity));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 240 138 / var(--tw-bg-opacity));
+}
+
+.bg-yellow-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.bg-purple-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(216 180 254 / var(--tw-bg-opacity));
+}
+
+.p-0 {
+  padding: 0px;
 }
 
 .p-\[0\.13rem\] {
@@ -2307,11 +2296,6 @@ button:hover{
 
 .p-\[0\.63rem\] {
   padding: 0.63rem;
-}
-
-.px-\[7\.31rem\] {
-  padding-left: 7.31rem;
-  padding-right: 7.31rem;
 }
 
 .py-\[1\.5rem\] {
@@ -2334,11 +2318,6 @@ button:hover{
   padding-bottom: 2.36rem;
 }
 
-.py-\[2\.375rem\] {
-  padding-top: 2.375rem;
-  padding-bottom: 2.375rem;
-}
-
 .py-\[2\.63rem\] {
   padding-top: 2.63rem;
   padding-bottom: 2.63rem;
@@ -2358,24 +2337,24 @@ button:hover{
   padding-bottom: 1.5rem;
 }
 
-.pb-\[3\.01rem\] {
-  padding-bottom: 3.01rem;
+.pl-\[1\.74rem\] {
+  padding-left: 1.74rem;
 }
 
-.pl-\[1\.9rem\] {
-  padding-left: 1.9rem;
+.pl-\[1rem\] {
+  padding-left: 1rem;
 }
 
 .pl-\[3rem\] {
   padding-left: 3rem;
 }
 
-.pr-\[6\.19rem\] {
-  padding-right: 6.19rem;
-}
-
 .pr-\[8\.05625rem\] {
   padding-right: 8.05625rem;
+}
+
+.pt-\[0\.15rem\] {
+  padding-top: 0.15rem;
 }
 
 .pt-\[0\.17rem\] {
@@ -2386,12 +2365,20 @@ button:hover{
   padding-top: 0.21rem;
 }
 
+.pt-\[0\.4rem\] {
+  padding-top: 0.4rem;
+}
+
 .pt-\[0\.5rem\] {
   padding-top: 0.5rem;
 }
 
 .pt-\[0\.63rem\] {
   padding-top: 0.63rem;
+}
+
+.pt-\[0\.65rem\] {
+  padding-top: 0.65rem;
 }
 
 .pt-\[0\.97rem\] {
@@ -2410,24 +2397,16 @@ button:hover{
   padding-top: 2.25rem;
 }
 
-.pt-\[3\.3rem\] {
-  padding-top: 3.3rem;
-}
-
-.pt-\[rem\] {
-  padding-top: rem;
-}
-
 .pt-\[2\.89rem\] {
   padding-top: 2.89rem;
 }
 
-.pl-\[1\.74rem\] {
-  padding-left: 1.74rem;
+.pt-\[2\.94rem\] {
+  padding-top: 2.94rem;
 }
 
-.pl-\[1rem\] {
-  padding-left: 1rem;
+.pt-\[rem\] {
+  padding-top: rem;
 }
 
 .text-center {
@@ -2466,12 +2445,20 @@ button:hover{
   font-size: 0.23rem;
 }
 
+.text-\[0\.24rem\] {
+  font-size: 0.24rem;
+}
+
 .text-\[0\.25rem\] {
   font-size: 0.25rem;
 }
 
 .text-\[0\.28rem\] {
   font-size: 0.28rem;
+}
+
+.text-\[0\.31rem\] {
+  font-size: 0.31rem;
 }
 
 .text-\[0\.33rem\] {
@@ -2486,6 +2473,10 @@ button:hover{
   font-size: 0.35rem;
 }
 
+.text-\[0\.36rem\] {
+  font-size: 0.36rem;
+}
+
 .text-\[0\.3rem\] {
   font-size: 0.3rem;
 }
@@ -2494,8 +2485,16 @@ button:hover{
   font-size: 0.42rem;
 }
 
+.text-\[0\.48rem\] {
+  font-size: 0.48rem;
+}
+
 .text-\[0\.49rem\] {
   font-size: 0.49rem;
+}
+
+.text-\[0\.54rem\] {
+  font-size: 0.54rem;
 }
 
 .text-\[0\.56rem\] {
@@ -2506,12 +2505,24 @@ button:hover{
   font-size: 0.5rem;
 }
 
+.text-\[0\.61rem\] {
+  font-size: 0.61rem;
+}
+
 .text-\[0\.63rem\] {
   font-size: 0.63rem;
 }
 
 .text-\[0\.65rem\] {
   font-size: 0.65rem;
+}
+
+.text-\[0\.67rem\] {
+  font-size: 0.67rem;
+}
+
+.text-\[0\.6rem\] {
+  font-size: 0.6rem;
 }
 
 .text-\[0\.75rem\] {
@@ -2526,24 +2537,24 @@ button:hover{
   font-size: 0.82rem;
 }
 
-.text-\[0\.87rem\] {
-  font-size: 0.87rem;
-}
-
 .text-\[0\.8rem\] {
   font-size: 0.8rem;
 }
 
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
+.text-\[1\.13rem\] {
+  font-size: 1.13rem;
 }
 
-.text-\[1rem\] {
-  font-size: 1rem;
+.text-\[2\.3rem\] {
+  font-size: 2.3rem;
 }
 
-.text-\[2rem\] {
-  font-size: 2rem;
+.text-\[2\.81rem\] {
+  font-size: 2.81rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 
 .text-\[6px\] {
@@ -2570,29 +2581,16 @@ button:hover{
   line-height: 1rem;
 }
 
-.text-\[3rem\] {
-  font-size: 3rem;
-}
-
 .text-\[2\.5rem\] {
   font-size: 2.5rem;
 }
 
-.text-\[2\.3rem\] {
-  font-size: 2.3rem;
+.text-\[2\.8rem\] {
+  font-size: 2.8rem;
 }
 
-.text-\[0\.68rem\] {
-  font-size: 0.68rem;
-}
-
-.text-\[1\.13rem\] {
-  font-size: 1.13rem;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
+.text-\[2rem\] {
+  font-size: 2rem;
 }
 
 .font-\[500\] {
@@ -2623,6 +2621,10 @@ button:hover{
   line-height: 0.28rem;
 }
 
+.leading-\[0\.33rem\] {
+  line-height: 0.33rem;
+}
+
 .leading-\[0\.34rem\] {
   line-height: 0.34rem;
 }
@@ -2631,12 +2633,28 @@ button:hover{
   line-height: 0.41rem;
 }
 
+.leading-\[0\.42rem\] {
+  line-height: 0.42rem;
+}
+
 .leading-\[0\.45rem\] {
   line-height: 0.45rem;
 }
 
+.leading-\[0\.46rem\] {
+  line-height: 0.46rem;
+}
+
 .leading-\[0\.4rem\] {
   line-height: 0.4rem;
+}
+
+.leading-\[0\.54rem\] {
+  line-height: 0.54rem;
+}
+
+.leading-\[0\.56rem\] {
+  line-height: 0.56rem;
 }
 
 .leading-\[0\.57rem\] {
@@ -2645,6 +2663,22 @@ button:hover{
 
 .leading-\[0\.58rem\] {
   line-height: 0.58rem;
+}
+
+.leading-\[0\.65rem\] {
+  line-height: 0.65rem;
+}
+
+.leading-\[0\.74rem\] {
+  line-height: 0.74rem;
+}
+
+.leading-\[0\.78rem\] {
+  line-height: 0.78rem;
+}
+
+.leading-\[0\.7rem\] {
+  line-height: 0.7rem;
 }
 
 .leading-\[0\.82rem\] {
@@ -2663,16 +2697,16 @@ button:hover{
   line-height: 11.83px;
 }
 
-.leading-\[\] {
-  line-height: ;
+.leading-\[3\.4rem\] {
+  line-height: 3.4rem;
 }
 
 .leading-\[3\.52rem\] {
   line-height: 3.52rem;
 }
 
-.leading-\[0\.79rem\] {
-  line-height: 0.79rem;
+.leading-\[0\.66rem\] {
+  line-height: 0.66rem;
 }
 
 .text-\[\#011C2A\] {
@@ -2710,19 +2744,9 @@ button:hover{
   color: rgb(201 201 201 / var(--tw-text-opacity));
 }
 
-.text-\[\#EAEAEA\] {
-  --tw-text-opacity: 1;
-  color: rgb(234 234 234 / var(--tw-text-opacity));
-}
-
 .text-\[\#F4BD1A\] {
   --tw-text-opacity: 1;
   color: rgb(244 189 26 / var(--tw-text-opacity));
-}
-
-.text-\[\#fff\] {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-black {

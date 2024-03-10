@@ -8,8 +8,9 @@
     <title>SafeHaven</title>
 </head>
 <body>
-    <!-- first section on lg-->
-    <section class="bg-white w-[90%] h-[7.5rem] mx-auto py-[2rem] max-lg:hidden">
+    <main class="w-[90%] mx-auto">
+        <!-- first section on lg-->
+    <section class="bg-white w-[100%] h-[7.5rem] mx-auto py-[2rem] max-lg:hidden">
         <!-- nav bar -->
         <div class="w-[90%] h-[3.5rem] mx-auto flex justify-between">
             <!-- image -->
@@ -35,26 +36,64 @@
         </div>
     </section>
 
+    <!-- first section on mobile -->
+    <section class="fixed top-0 w-[90%] bg-white h-[2.5rem] flex justify-between lg:hidden">
+        <!-- nav bar -->
+        <div class="w-[6.13rem] h-[1.2rem]">
+            <img src="/GROUP-6/Group6/Images/logo.svg" alt="" class="w-[100%] h-[100%] my-[0.65rem] ml-[0.5rem]">
+        </div>
+        <div class="icon">
+            <button class="mr-[0.5rem] mt-[0.65rem]">
+                <img src="/GROUP-6/Group6/Images/line.svg" alt="" class="line-icon w-[1rem] h-[1rem]">
+            </button>
+        </div>
+
+        <!-- menu -->
+        <!-- list -->
+        <div class="menu w-[90%] h-[7rem] mx-auto flex justify-between pt-[0.65rem] fixed bg-white">
+            <div>
+                <ul class=" w-[20.94rem] ml-[1rem] font-semibold text-xs">
+                    <li>
+                        <a href="./home.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="text-[#9E9E9E]">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
+                    </li>
+                </ul>
+                <!-- button -->
+                <a href="./resource.html" class="ml-[0.5rem]">
+                    <button class="bg-black text-white w-[5rem] h-[2rem] mt-[0.3rem] font-medium text-[0.5rem] rounded-[1.25rem]">Resource Library</button>
+                </a>
+            </div>
+            <div class="fixed right-[0.5rem]">
+                <img src="/GROUP-6/Group6/Images/close.svg" alt="" class="close w-[1rem] h-[1rem]">
+            </div>
+        </div> 
+    </section>
+
     <!-- second section on lg -->
-    <section class="bg-white w-[90%] h-[38.23rem] mt-[7.21rem] py-[4.75rem] mx-auto rounded-[1.56rem] max-lg:hidden">
+    <section class="bg-white w-[100%] h-[38.23rem] mt-[7.21rem] py-[4.75rem] mx-auto rounded-[1.56rem] max-lg:hidden">
         <!-- main -->
         <div class="w-[90%] h-[30.5rem] mx-auto flex justify-between items-center">
             <!-- text div -->
             <div class="w-[29.86rem] h-[20.91rem]">
 
                 <!-- text -->
-                <div class="w-[28.77rem] h-[14.11rem] mx-[0.55rem] mt-[0.55rem]">
-                    <h1 class="line w-[100%] h-[9.56rem] mb-[0.55rem]">Your Digital safe Haven for Awareness and Action</h1>
-                    <p class="w-[30.63rem] h-[4.5rem] text-[#6E6E6E] text-2xl">Join us in the fight against gender-based violence with innovative digital solutions.</p>
+                <div class="w-[28.77rem] h-[14.96rem] mx-[0.55rem] mt-[0.55rem]">
+                    <h1 class="w-[100%] h-[10.13rem] mb-[0.59rem] font-bold text-[2.81rem] leading-[3.4rem]">Your Digital safe Haven for Awareness and Action</h1>
+                    <p class="w-[30.63rem] h-[4.25rem] text-[#6E6E6E] text-2xl">Join us in the fight against gender-based violence with innovative digital solutions.</p>
                 </div>
 
                 <!-- button -->
-                <div class="w-[15.81rem] h-[3.06rem] mt-[2.63rem] flex justify-between font-medium text-lg">
+                <div class="w-[16.9rem] h-[3.28rem] mt-[2.5rem] flex justify-between font-medium text-lg">
                     <a href="">
-                        <button class="w-[7.81rem] h-[100%] text-white bg-black rounded-[5.47rem]">Join us now</button>
+                        <button class="w-[8.34rem] h-[100%] text-white bg-black rounded-[5.89rem]">Join us now</button>
                     </a>
                     <a href="">
-                        <button class="w-[7.56rem] h-[100%] rounded-[5.47rem] border-2 border-black border-solid">Learn more</button>
+                        <button class="w-[8.09rem] h-[100%] rounded-[5.89rem] border-2 border-black border-solid">Learn more</button>
                     </a>
                 </div>
             </div>
@@ -66,8 +105,39 @@
         </div>
     </section>
 
+    <!-- second section on mobile -->
+    <section class="w-[100%] h-[50%] mt-[1rem] py-[1.5rem] lg:hidden">
+        <!-- main -->
+        <div class="w-[90%] h-[95%] mx-auto mt-[1.34rem] flex justify-between items-center">
+            <!-- text div -->
+            <div class="w-[40%] h-[4.83rem] my-[0.69rem] p-[0.13rem]">
+
+                <!-- text -->
+                <div class="h-[3.25rem]">
+                    <h1 class="h-[2.25rem] mb-[0.15rem] font-[700] text-[0.61rem] leading-[0.74rem]">Your Digital safe Haven for Awareness and Action</h1>
+                    <p class="h-[0.88rem] text-[#6E6E6E] text-[0.31rem] leading-[0.46rem]">Join us in the fight against gender-based violence with innovative digital solutions.</p>
+                </div>
+
+                <!-- button -->
+                <div class="w-[70%] h-[0.71rem] flex justify-between">
+                    <a href="" class="w-[45%] h-[100%]">
+                        <button class="w-[100%] h-[100%] bg-black rounded-[1.27rem] font-medium text-[0.23rem] leading-[0.28rem] text-white">Join us now</button>
+                    </a>
+                    <a href="" class="w-[43%] h-[100%]">
+                        <button class="w-[100%] h-[100%] rounded-[1.27rem] p-0 border border-black text-[0.23rem] leading-[0.28rem] font-medium">Learn more</button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- picture div -->
+            <div class="w-[50%] h-[50%]">
+                <img src="/GROUP-6/Group6/Images/picture.svg" alt="picture" class="w-[100%] h-[100%]">
+            </div>
+        </div>
+    </section>
+
     <!-- third section on lg -->
-    <section class="bg-white w-[90%] h-[73.49rem] mt-[4.65rem] pt-[1.5rem] mx-auto rounded-[1.56rem] max-lg:hidden">
+    <section class="bg-white w-[100%] h-[73.49rem] mt-[4.65rem] pt-[1.5rem] mx-auto rounded-[1.56rem] max-lg:hidden">
 
         <!-- first div -->
         <div class="w-[80%] h-[8.31rem] mx-auto">
@@ -76,10 +146,10 @@
         </div>
 
         <!-- second div -->
-        <div class="mt-[3.69rem] w-[99%] h-[61.31rem] mx-auto items-center">
+        <div class="mt-[3.69rem] w-[90%] h-[61.31rem] mx-auto items-center">
             
             <!-- financial donation -->
-            <div class="h-[27.19rem] m-[0.63rem] flex gap-32 items-center ">
+            <div class="h-[27.19rem] m-[0.63rem] flex justify-between items-center ">
                 <!-- image -->
                 <div>
                     <img src="/GROUP-6/Group6/Images/finance.svg" alt="Image 1" class="w-[28.31rem] h-[27.19rem]">
@@ -106,8 +176,57 @@
         </div>
     </section>
 
+    <!-- third section on mobile -->
+    <section class="w-[100%] h-[24.8rem] mt-[1.1rem] pt-[0.5rem] bg-white rounded-[0.65rem] mx-auto lg:hidden">
+
+        <!-- first div -->
+        <div class="w-[16.89rem] h-[2.37rem] mx-auto">
+            <h1 class="w-[15rem] h-[0.81rem] mx-auto font-bold text-[0.7rem] leading-[0.82rem] text-center">Support Survivors: Make a Difference Today</h1>
+            <p class="w-[100%] h-[1.31rem] mt-[0.24rem] text-center text-[#6E6E6E] text-[0.35rem] leading-[0.41rem]">Your support can change lives. By donating financially, providing educational materials, or spreading awareness on social media, you can help survivors of sexual and gender-based violence find the support and resources they need to heal and thrive.</p>
+        </div>
+
+        <!-- second div -->
+        <div class="third mt-[0.87rem] w-[90%] h-[16.64rem] mx-auto pt-[0.17rem] items-center">
+            
+            <!-- financial donation -->
+            <div class="a h-[7.56rem] mx-[0.17rem] flex justify-between items-center">
+                <!-- image -->
+                <div>
+                    <img src="/GROUP-6/Group6/Images/finance.svg" alt="Image 1" class="one w-[7.87rem] h-[7.56rem]">
+                </div>
+                <!-- text -->
+                <div class="w-[45%] h-[3.42rem]">
+                    <p class="font-medium text-[0.63rem] w-[5.5rem] h-[0.75rem]">Financial donation</p>
+                    <p class="text-[#6E6E6E] text-[0.42rem] w-[100%] h-[2.5rem] mt-[0.17rem]">Your financial donation can significantly impact the lives of survivors of sexual and gender-based violence, providing them with necessary resources and support to heal and empower.</p>
+                </div>
+            </div>
+
+            <!-- educational resources -->
+            <div class="h-[7.56rem] m-[0.17rem] mt-[1rem] flex justify-between items-center">
+                <!-- text -->
+                <div class="w-[45%] h-[3.42rem]">
+                    <p class="font-medium text-[0.63rem] w-[6.81rem] h-[0.75rem]">Educational  resources</p>
+                    <p class="text-[#6E6E6E] text-[0.42rem] w-[100%] h-[2.5rem] mt-[0.17rem]">Your material donation can significantly impact the lives of survivors of sexual and gender-based violence, providing them with necessary resources and support to heal and empower.</p>
+                </div>
+                <!-- image -->
+                <div>
+                    <img src="/GROUP-6/Group6/Images/education.svg" alt="Image 2" class="two w-[7.87rem] h-[7.56rem ]">
+                </div>
+            </div>
+            
+            <!-- button -->
+            <div class="w-[100%] h-[2.23rem] mt-[2rem]">
+                <div class="w-[5.23rem] h-[100%] mx-auto">
+                    <a href="">
+                        <button class="w-[100%] h-[100%] bg-black text-white rounded-[4.26rem] font-medium text-[0.65rem] leading-[1.2rem]">Join us now</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- button -->
-    <div class="w-[100%] h-[5.41rem] mt-[5.48rem]">
+    <div class="w-[100%] h-[5.41rem] mt-[5.48rem] max-lg:hidden">
         <div class="w-[13.74rem] h-[100%] mx-auto">
             <a href="">
                 <button class="w-[100%] h-[100%] bg-black text-white rounded-[7.11rem] font-medium text-2xl">Join us now</button>
@@ -116,7 +235,7 @@
     </div>
 
     <!-- fourth section on lg -->
-    <section class="background mt-[7.9rem] w-[90%] h-[27.88rem] py-[2.36rem] mx-auto rounded-[1.56rem] max-lg:hidden">
+    <section class="background mt-[7.9rem] w-[100%] h-[27.88rem] py-[2.36rem] mx-auto rounded-[1.56rem] max-lg:hidden">
 
         <!-- main content -->
         <div class="w-[90%] h-[18.96rem] mx-auto flex justify-between items-center my-[2.36rem]">
@@ -145,8 +264,38 @@
         </div>
     </section>
 
+    <!-- fourth section on mobile -->
+    <section class="background mt-[2rem] w-[100%] h-[30%] rounded-[0.39rem] lg:hidden">
+
+        <!-- main content -->
+        <div class="w-[90%] h-[7.08rem] mx-auto flex justify-between items-center">
+            <!-- text div -->
+            <div class="w-[50%] my-[1.1rem]">
+                <!-- text -->
+                <div class="w-[100%] h-[3.04rem]">
+                    <h1 class="w-[100%] h-[2.06rem] font-semibold text-[0.56rem] leading-[0.66rem]">Unlock a Wealth of Knowledge: Browse Our Resource Library for Articles and Videos</h1>
+                    <p class="mt-[0.23rem] w-[100%] h-[0.75rem] text-[0.34rem] leading-[0.4rem]">Explore our extensive resource library, featuring articles and videos on sexual and gender-based violence.</p>
+                </div>
+                <!-- button -->
+                <div class="w-[5.63rem] h-[1.08rem] mt-[0.4rem] flex justify-between">
+                    <a href="./resource.html">
+                        <button class="w-[2.64rem] h-[100%] bg-black text-white rounded-[0.55rem] text-[0.34rem] leading-[0.4rem] font-semibold">Articles</button>
+                    </a>
+                    <a href="./resource.html">
+                        <button class="w-[2.64rem] h-[100%] border-2 border-black border-solid rounded-[0.55rem] text-[0.34rem] leading-[0.4rem] font-semibold">Videos</button>
+                    </a>
+                </div>
+            </div>
+    
+            <!-- image div -->
+            <div class="w-[7.08rem] h-[25.81rem]">
+                <img src="/GROUP-6/Group6/Images/div.svg" alt="Image 3" class="w-[100%] h-[100%]">
+            </div>
+        </div>
+    </section>
+
     <!-- fifth section on lg -->
-    <section class="w-[90%] h-[35rem] mx-auto mt-[7.75rem] py-[1.78rem] max-lg:hidden">
+    <section class="w-[100%] h-[35rem] mx-auto mt-[7.75rem] py-[1.78rem] max-lg:hidden">
 
         <!-- main content -->
         <div class="w-[85%] h-[31.5rem] pt-[0.63rem] mx-auto">
@@ -227,8 +376,90 @@
         </div>
     </section>
 
+    <!-- fifth section on mobile -->
+    <section class="w-[100%] h-[10.37rem] mt-[1.57rem] py-[1.78rem] lg:hidden">
+
+        <!-- main content -->
+        <div class="pt-[0.21rem]">
+            <!-- text div -->
+            <div class="w-[80%] h-[2.27rem] mx-auto mb-[0.21rem]">
+                <h1 class="w-[100%] h-[0.94rem] text-center font-bold text-[0.82rem] leading-[0.97rem]">Our Testimonials</h1>
+                <p class="w-[100%] h-[1.13rem] text-center text-[0.49rem] leading-[0.58rem] mt-[0.21rem]">Don't just take our word for it - see what actual users of our service have to say about their experience.</p>
+            </div>
+            <!-- images div -->
+            <div class="w-[97%] h-[7.48rem] mx-auto mb-[0.21rem] flex justify-between">
+
+                <!-- first div -->
+                <div class="w-[30%] h-[7.34rem] mx-auto bg-white rounded-[0.5rem]">
+                    <!-- image -->
+                    <img src="/GROUP-6/Group6/Images/testimonial1.svg" alt="" class="w-[2.06rem] h-[2.06rem] mt-[0.3rem] mx-auto">
+                    <!-- description -->
+                    <div class="my-[0.33rem]">
+                        <!-- quote -->
+                        <div class="w-[0.49rem] h-[0.49rem] mx-auto mt-[0.33rem] mb-[0.33rem] flex justify-between">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                        </div>
+                        <!-- text -->
+                        <p class="w-[100%] h-[0.94rem] text-center mb-[0.33rem] text-[0.33rem] leading-[0.45rem]">The resources and information were so helpful, and i am grateful i found them.</p>
+                    </div>
+                    <!-- name -->
+                    <p class="text-center mt-[1.25rem] h-[0.5rem] text-[0.33rem] leading-[0.45rem]">Jane Tom</p>
+                    <!-- rating -->
+                    <div class="mt-[0.33rem] w-[3.46rem] h-[0.49rem] mx-auto">
+                        <img src="/GROUP-6/Group6/Images/4star.svg" alt="">
+                    </div>
+                </div>
+
+                <!-- second div -->
+                <div class="w-[30%] h-[7.34rem] mx-auto bg-white rounded-[0.5rem]">
+                    <!-- image -->
+                    <img src="/GROUP-6/Group6/Images/testimonial2.svg" alt="" class="w-[2.06rem] h-[2.06rem] mt-[0.3rem] mx-auto rounded-[7.41rem]">
+                    <!-- description -->
+                    <div class="my-[0.33rem]">
+                        <!-- quote -->
+                        <div class="w-[0.49rem] h-[0.49rem] mx-auto mt-[0.33rem] mb-[0.33rem] flex justify-between">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                        </div>
+                        <!-- text -->
+                        <p class="w-[100%] h-[1.81rem] text-center mb-[0.33rem] text-[0.33rem] leading-[0.45rem]">The training materials from safehaven tech team have been instrumental in helping us provide better services to our survivors</p>
+                    </div>
+                    <!-- name -->
+                    <p class="text-center mt-[0.33rem] h-[0.5rem] text-[0.33rem] leading-[0.45rem]">Lora Smith</p>
+                    <!-- rating  -->
+                    <div class="mt-[0.33rem] w-[3.46rem] h-[0.49rem] mx-auto">
+                        <img src="/GROUP-6/Group6/Images/5star.svg" alt="star">
+                    </div>
+                </div>
+
+                <!-- third div -->
+                <div class="w-[30%] h-[7.34rem] mx-auto bg-white rounded-[0.5rem]">
+                    <!-- image -->
+                    <img src="/GROUP-6/Group6/Images/testimonial3.svg" alt="" class="w-[2.06rem] h-[2.06rem] mt-[0.3rem] mx-auto rounded-[7.41rem]">
+                    <!-- description -->
+                    <div class="my-[0.33rem]">
+                        <!-- quote -->
+                        <div class="w-[0.49rem] h-[0.49rem] mx-auto mt-[0.33rem] mb-[0.33rem] flex justify-between">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                            <img src="/GROUP-6/Group6/Images/quote.svg" alt="" class="w-[0.21rem]">
+                        </div>
+                        <!-- text -->
+                        <p class="w-[100%] h-[1.81rem] text-center mb-[0.33rem] text-[0.33rem] leading-[0.45rem]">The materials were easy to understand and were tailored specific to my needs.</p>
+                    </div>
+                    <!-- name -->
+                    <p class="text-center mt-[0.33rem] h-[0.5rem] text-[0.33rem] leading-[0.45rem]">Anna Kwasi</p>
+                    <!-- rating -->
+                    <div class="mt-[0.33rem] w-[3.46rem] h-[0.49rem] mx-auto">
+                        <img src="/GROUP-6/Group6/Images/5star.svg" alt="star">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- footer on lg -->
-    <section class="w-[90%] h-[24rem] mx-auto mt-[10.16rem] pt-[2.25rem] bg-black text-white rounded-[1.56rem] max-lg:hidden">
+    <section class="w-[100%] h-[24rem] mx-auto mt-[10.16rem] pt-[2.25rem] bg-black text-white rounded-[1.56rem] max-lg:hidden">
 
         <!-- main content -->
         <div class="w-[90%] h-[18.45rem] mx-auto mb-[2.3rem]">
@@ -310,5 +541,94 @@
             </div>
         </div>
     </section>
+
+    <!-- footer on mobile -->
+    <section class="w-[100%] h-[7.73rem] pt-[0.97rem] mt-[2.65rem] rounded-[0.4rem] bg-black text-white lg:hidden">
+
+        <!-- main content -->
+        <div class="w-[90%] h-[6.2rem] mx-auto mb-[0.5rem]">
+            <!-- top half -->
+            <div class="w-[100%] h-[2.67rem] mx-auto flex justify-between">
+            <!-- first div -->
+            <div class="w-[3.38rem] h-[70%]">
+                <div class="flex h-[1.13rem]">
+                    <img src="/GROUP-6/Group6/Images/log.svg" alt="" class="w-[0.71rem] h-[1.02rem]">
+                    <div class="w-[2.61rem] h-[1.02rem] text-[0.49rem] font-bold leading-[0.57rem]">
+                        <p class="text-[#F4BD1A]">SafeHaven</p>
+                        <p class="text-white">Tech Team</p>
+                    </div>
+                </div>
+                <p class="mt-[0.5rem] text-[0.28rem] w-[5.88rem] h-[0.38rem] leading-[0.34rem]">Empowering Survivors, Fostering Resilience</p>
+            </div>
+            <!-- second div -->
+            <div class="w-[55%] h-[90%] flex justify-between">
+                <!-- Explore -->
+                <div class="w-[2.19rem] h-[100%] mb-[0.33rem]">
+                    <p class="w-[2.19rem] mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Explore</p>
+                    <a href="./about.html">
+                        <p class="w-[2.19rem] mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">About Us</p>
+                    </a>
+                    <a href="./contact.html">
+                        <p class="w-[2.19rem] mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Contact Us</p>
+                    </a>
+                    <p class="w-[2.19] text-[0.28rem] leading-[0.34rem]">Support Us</p>
+                </div>
+                <!-- library -->
+                <div class="w-[2.19rem] h-[100%]">
+                    <p class=" mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Library</p>
+                    <p class=" mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Articles</p>
+                    <p class=" mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Videos</p>
+                    <p class="text-[0.28rem] leading-[0.34rem]">Materials</p>
+                </div>
+                <!-- Address -->
+                <div class="w-[3.8rem] h-[50%]">
+                    <p class="w-[3.09rem] mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Address</p>
+                    <p class="text-[0.28rem] leading-[0.34rem]">No 14, Station Road, Along Royalton Hotel, GRA, Iloron.</p>
+                </div>
+            </div>
+            </div>
+
+            <!-- bottom half -->
+            <div class="w-[100%] h-[2.67rem] mx-auto flex justify-between">
+                <!-- first div -->
+                <div class="pt-[1.5rem] w-[3.38rem]">
+                <!-- social media platforms -->
+                <div class="flex justify-between w-[1.77rem] h-[0.34rem] mb-[0.28rem]">
+                    <a href="https://www.instagram.com/webfalainitiative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                        <img src="/GROUP-6/Group6/Images/1.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                    </a>
+                    <a href="https://www.linkedin.com/company/webfala-digital-skills-for-all-initiative/">
+                        <img src="/GROUP-6/Group6/Images/2.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                    </a>
+                    <a href="https://www.facebook.com/webfalainitiative?mibextid=ZbWKwL">
+                        <img src="/GROUP-6/Group6/Images/3.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                    </a>
+                    <a href="https://x.com/Webfalainitiat1?s=20">
+                        <img src="/GROUP-6/Group6/Images/4.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                    </a>
+                </div>
+                <p class="w-[3rem] h-[0.38rem] mb-[0.18rem] text-[0.28rem] leading-[0.34rem]">911, +2348188531849</p>
+                <p class="w-[3.06rem] h-[0.38rem] text-[0.28rem] leading-[0.34rem]">safehaven@gmail.com</p>
+                </div>
+                <!-- second div -->
+                <div class="w-[55%] h-[1.63rem] mt-[1.2rem]">
+                <p class="flex gap-[0.2rem] text-[0.28rem] leading-[0.34rem] items-center">
+                    <img src="/GROUP-6/Group6/Images/mail.svg" alt="" class="w-[0.34rem] h-[0.34rem]">
+                    Subscribe To The SafeHaven Newsletter
+                </p>
+                <p class="text-[0.3rem] mt-[0.28rem] h-[0.25rem]">Email address</p>
+                <div class="flex items-center">
+                    <input type="email" class="bg-black border-solid border-2 mt-[0.65rem] rounded-[0.11rem] w-[70%] h-[0.58rem] mr-[0.5rem]">
+                    <a href="">
+                        <button class="bg-white w-[2.1rem] h-[0.58rem] text-black rounded-[1.42rem] font-medium text-[0.23rem] leading-[0.28rem]">Join us now</button>
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </main>
+    <script src="main.js"></script>
 </body>
 </html>

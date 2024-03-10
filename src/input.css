@@ -13,20 +13,22 @@ html, body{
 
 .menu{
     position: fixed;
-    right: 1rem;
+    right: 0;
     left: 0;
     bottom: 0;
     top: 0;
-    transform: translateY(-100%);
+    transform: translateY(-200%);
     transition: transform 0.3s;
+}
+
+.section-one{
+    width: 19.91rem;
+    display: flex;
+    justify-content: space-between;
 }
 
 .show-menu{
     transform: translateY(0)
-}
-
-.close{
-    display: none;
 }
 
 a:hover{
@@ -37,19 +39,28 @@ button:hover{
     font-weight: bold;
 }
 
-.line{
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 3.18rem;
-}
-
 .background{
     background: linear-gradient(90deg, #ABA7A7, #ECDE91)
 }
 
 .about{
     background-image: url(/GROUP-6/Group6/Images/about.svg);
+    background-size: cover;
 }
 
+/* @media screen and (min-width: 375px) {
+    .third{
+        background-color: chocolate
+    }
+
+    .a{
+        height: 13rem;
+    }
+
+    .one{
+        width: 15rem;
+        height: 13rem;
+    }
+} */
 
 @tailwind utilities;
