@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./src/output.css" rel="stylesheet">
+    <title>SafeHaven</title>
+</head>
+<body class="w-[60%] h-[80vh] mx-auto bg-white">
+    <form action="" class="form">
+        <h1 class="text-center font-bold text-4xl">Create an account</h1>
+        <div class="mt-[2rem] w-[90%] mx-auto">
+            <label for="email" class="font-medium text-xl block">Email address</label>
+            <input type="email" required class="mt-[0.5rem] w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
+
+            <div class="flex gap-[3rem] mt-[1rem] w-[90%]">
+                <div class="w-[50%]">
+                    <label for="name" class="font-medium text-xl block">First name</label>
+                    <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                </div>
+                <div class="w-[50%]">
+                    <label for="name" class="font-medium text-xl block">Last name</label>
+                    <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                </div>
+            </div>
+
+            <label for="password" class="font-medium text-xl block mt-[1rem]">Password</label>
+            <input type="password" required class="w-[90%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
+
+            <label for="dob" class="font-medium text-xl block mt-[1rem]">Date of birth</label>
+            <input type="date" required class="w-[90%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+
+        </div>
+        
+        <div class="w-[90%] mx-auto mt-[1.5rem] flex gap-[0.5rem]">
+            <input type="checkbox" required>
+            <p class="text-xs">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
+        </div>
+
+        <!-- submit -->
+        <div class="w-[11rem] h-[3rem] mx-auto mt-[1.5rem]">
+            <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium text-xl rounded-[1.5rem] hover:font-bold" onclick="closeForm()">
+        </div>
+
+        <div class="text-center mt-[1rem]">
+            <h1>Already have an account? <a href="" class="text-[#08329D] ml-[0.2rem]">Sign in</a></h1>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>

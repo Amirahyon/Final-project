@@ -4,61 +4,245 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="./output.css" rel="stylesheet">
-    <title>resource library</title>
+    <link href="./src/output.css" rel="stylesheet">
+    <title>SafeHaven</title>
 </head>
 <body>
-    <!-- </section> -->
-    <section class="bg-white w-[100%] h-[7.5rem] py-[2rem] ">
-        <!-- nav bar -->
-        <div class="w-[80%] h-[3.5rem] mx-auto flex justify-between">
-            <!-- image -->
-            <img src="/GROUP-6/Group6/Images/logo.svg" alt="logo" class="w-[7.99rem] h-[2.75rem] my-[0.38rem]">
+    <main class="w-[90%] h-[100%] mx-auto">
+        <!-- section one on lg -->
+        <section class="bg-white w-[100%] h-[7.5rem] py-[2rem] max-lg:hidden">
+            <!-- nav bar -->
+            <div class="w-[80%] h-[3.5rem] mx-auto flex justify-between">
+                <!-- image -->
+                <img src="./Images/logo.svg" alt="logo" class="w-[7.99rem] h-[2.75rem] my-[0.38rem]">
+    
+                <!-- list -->
+                <ul class=" w-[23.94rem] my-[1rem] flex justify-between font-semibold text-xl">
+                    <li>
+                        <a href="./homepage.html" class="text-[#9E9E9E]">Home</a>
+                    </li>
+                    <li>
+                        <a href="./about.html" class="text-[#9E9E9E]">About</a>
+                    </li>
+                    <li>
+                        <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
+                    </li>
+                </ul>
+                <!-- button -->
+                <a href="./resource.html" class="w-[11.63rem] h-[3.5rem] hover:font-extrabold">
+                    <button class="bg-black text-white w-[100%] h-[100%] font-bold text-lg rounded-[6.25rem]">Resource Library</button>
+                </a>
+            </div>
+        </section>
 
+        <!-- first section on mobile -->
+        <section class="fixed top-0 w-[90%] bg-white h-[2.5rem] flex justify-between lg:hidden">
+            <!-- nav bar -->
+            <div class="w-[6.13rem] h-[1.2rem]">
+                <img src="./Images/logo.svg" alt="" class="w-[100%] h-[100%] my-[0.65rem] ml-[0.5rem]">
+            </div>
+            <div class="icon">
+                <button class="mr-[0.5rem] mt-[0.65rem]">
+                    <img src="./Images/line.svg" alt="" class="line-icon w-[1rem] h-[1rem]">
+                </button>
+            </div>
+
+            <!-- menu -->
             <!-- list -->
-            <ul class=" w-[23.94rem] my-[1rem] flex justify-between font-semibold text-xl">
-                <li>
-                    <a href="./homepage.html">Home</a>
-                </li>
-                <li>
-                    <a href="./about.html" class="text-[#9E9E9E]">About</a>
-                </li>
-                <li>
-                    <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
-                </li>
-            </ul>
-            <!-- button -->
-            <a href="./resource.html" class="w-[11.63rem] h-[3.5rem]">
-                <button class="bg-black text-white w-[100%] h-[100%] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
-            </a>
-</div>
-                <div class=" w-[30rem] h-[12rem] pt-[rem] bg-brown">
-    </section>
-    
-<div class=" w-[30rem] h-[4rem] ml-[7.5rem] items-center bg-snow-white pt-[0.5rem] text-[3rem pb-[1.5rem] ml-[2.5rem]">
-    <div>
-        <img class=" w-[99.357rem] h-[20.81rem] pl-[3rem] " src="../Images/background.svg" alt="">
+            <div class="menu w-[90%] h-[7rem] mx-auto flex justify-between pt-[0.65rem] fixed bg-white">
+                <div>
+                    <ul class=" w-[20.94rem] ml-[1rem] font-semibold text-xs">
+                        <li>
+                            <a href="./home.html" class="text-[#9E9E9E]">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html" class="text-[#9E9E9E]">About</a>
+                        </li>
+                        <li>
+                            <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
+                        </li>
+                    </ul>
+                    <!-- button -->
+                    <a href="./resource.html" class="ml-[0.5rem]">
+                        <button class="bg-black text-white w-[5rem] h-[2rem] mt-[0.3rem] font-bold text-[0.5rem] rounded-[1.25rem]">Resource Library</button>
+                    </a>
+                </div>
+                <div class="fixed right-[0.5rem]">
+                    <img src="./Images/close.svg" alt="" class="close w-[1rem] h-[1rem]">
+                </div>
+            </div> 
+        </section>
 
-    </div>
+        <!-- footer on lg -->
+        <section class="w-[100%] h-[24rem] mx-auto mt-[10.16rem] pt-[2.25rem] bg-black text-white rounded-[1.56rem] max-lg:hidden">
 
-    <section class="flex"> 
+            <!-- main content -->
+            <div class="w-[90%] h-[18.45rem] mx-auto mb-[2.3rem]">
+                <!-- top half -->
+                <div class="w-[100%] h-[8.7rem] mx-auto mb-[2.06rem] flex justify-between">
+                    <!-- first div -->
+                    <div class="w-[40%] h-[70%]">
+                        <div class="flex">
+                            <img src="./Images/log.svg" alt="" class="w-[3.14rem] h-[4rem]">
+                            <div>
+                                <p class="font-bold text-3xl text-[#F4BD1A]">SafeHaven</p>
+                                <p class="font-bold text-3xl text-white">Tech Team</p>
+                            </div>
+                        </div>
+                        <p class="mt-[1rem] text-xl">Empowering Survivors, Fostering Resilience</p>
+                    </div>
+                    <!-- second div -->
+                    <div class="w-[55%] h-[90%] flex justify-between">
+                        <!-- Explore -->
+                        <div class="w-[9rem] h-[100%] mb-[1rem]">
+                            <p class=" mb-[0.5rem] font-semibold text-2xl">Explore</p>
+                            <a href="./about.html">
+                                <p class=" mb-[0.5rem] text-lg">About Us</p>
+                            </a>
+                            <a href="./contact.html">
+                                <p class=" mb-[0.5rem] text-lg">Contact Us</p>
+                            </a>
+                            <p class="text-lg">Support Us</p>
+                        </div>
+                        <!-- library -->
+                        <div class="w-[9rem] h-[100%]">
+                            <p class=" mb-[0.5rem] font-semibold text-2xl">Library</p>
+                            <p class=" mb-[0.5rem] text-lg">Articles</p>
+                            <p class=" mb-[0.5rem] text-lg">Videos</p>
+                            <p class="text-lg">Materials</p>
+                        </div>
+                        <!-- Address -->
+                        <div class="w-[16rem] h-[50%]">
+                            <p class=" mb-[0.5rem] font-semibold text-2xl">Address</p>
+                            <p class="text-lg">No 14, Station Road, Along Royalton Hotel, GRA, Iloron.</p>
+                        </div>
+                    </div>
+                </div>
+        
+                <!-- bottom half -->
+                <div class="w-[100%] h-[8.7rem] mx-auto flex justify-between">
+                    <!-- first div -->
+                    <div class="pt-[1.5rem] w-[13rem]">
+                        <!-- social media platforms -->
+                        <div class="flex justify-between w-[7.8rem] h-[1.5rem] mb-[0.7rem]">
+                            <a href="https://www.instagram.com/webfalainitiative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                                <img src="/GROUP-6/Group6/Images/1.svg" alt="" class="w-[1.43rem] h-[1.5rem]">
+                            </a>
+                            <a href="https://www.linkedin.com/company/webfala-digital-skills-for-all-initiative/">
+                                <img src="/GROUP-6/Group6/Images/2.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                            </a>
+                            <a href="https://www.facebook.com/webfalainitiative?mibextid=ZbWKwL">
+                                <img src="/GROUP-6/Group6/Images/3.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                            </a>
+                            <a href="https://x.com/Webfalainitiat1?s=20">
+                                <img src="/GROUP-6/Group6/Images/4.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                            </a>
+                        </div>
+                        <p class="mb-[0.7rem] text-xl">911, +2348188531849</p>
+                        <p class="text-xl">safehaven@gmail.com</p>
+                    </div>
+                    <!-- second div -->
+                    <div class="w-[55%] h-[8.7rem] mt-[1rem]">
+                        <p class="flex gap-[0.63rem] text-xl items-center">
+                            <img src="./Images/mail.svg" alt="" class="w-[1.5rem] h-[1.5rem]">
+                            Subscribe To The SafeHaven Newsletter
+                        </p>
+                        <p class="text-sm mt-[1.38rem] mb-[0.5rem]">Email address</p>
+                        <input type="email" class="bg-black border-solid border-2 rounded-[0.5rem] w-[20rem] h-[2.56rem] mr-[0.5rem]">
+                        <a href="./sign-up.html">
+                            <button class="sign-up bg-white w-[9.25rem] h-[2.56rem] text-black rounded-[6.25rem] font-medium">Join us now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div  class="pr-[8.05625rem] w-full h-full" >  
-            <img src="../Images/lady.svg" alt="">
-        </div>
-        <div class="text-justify"> 
-              <p>Unlocking Consent: A Holistic Guide for All"Unlocking Consent</p>
-              <p> This guide emphasizes the importance of understanding and respecting consent, providing practical advice and insights for individuals of all backgrounds and identities.</p>
-                <h3> 4 mins read </h3>
-                <h6> 3rd of march, 2024</h6>
-         </div>
-      
-    </section>
-     
+        <!-- footer on mobile -->
+        <section class="w-[100%] h-[7.73rem] pt-[0.97rem] mt-[2.65rem] rounded-[0.4rem] bg-black text-white lg:hidden">
 
-    </div>
+            <!-- main content -->
+            <div class="w-[90%] h-[6.2rem] mx-auto mb-[0.5rem]">
+                <!-- top half -->
+                <div class="w-[100%] h-[2.67rem] mx-auto flex justify-between">
+                <!-- first div -->
+                <div class="w-[3.38rem] h-[70%]">
+                    <div class="flex h-[1.13rem]">
+                        <img src="./Images/log.svg" alt="" class="w-[0.71rem] h-[1.02rem]">
+                        <div class="w-[2.61rem] h-[1.02rem] text-[0.49rem] font-bold leading-[0.57rem]">
+                            <p class="text-[#F4BD1A]">SafeHaven</p>
+                            <p class="text-white">Tech Team</p>
+                        </div>
+                    </div>
+                    <p class="mt-[0.5rem] text-[0.28rem] w-[5.88rem] h-[0.38rem] leading-[0.34rem]">Empowering Survivors, Fostering Resilience</p>
+                </div>
+                <!-- second div -->
+                <div class="w-[55%] h-[90%] flex justify-between">
+                    <!-- Explore -->
+                    <div class="w-[2.19rem] h-[100%] mb-[0.33rem]">
+                        <p class="w-[2.19rem] mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Explore</p>
+                        <a href="./about.html">
+                            <p class="w-[2.19rem] mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">About Us</p>
+                        </a>
+                        <a href="./contact.html">
+                            <p class="w-[2.19rem] mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Contact Us</p>
+                        </a>
+                        <p class="w-[2.19] text-[0.28rem] leading-[0.34rem]">Support Us</p>
+                    </div>
+                    <!-- library -->
+                    <div class="w-[2.19rem] h-[100%]">
+                        <p class=" mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Library</p>
+                        <p class=" mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Articles</p>
+                        <p class=" mb-[0.43rem] text-[0.28rem] leading-[0.34rem]">Videos</p>
+                        <p class="text-[0.28rem] leading-[0.34rem]">Materials</p>
+                    </div>
+                    <!-- Address -->
+                    <div class="w-[3.8rem] h-[50%]">
+                        <p class="w-[3.09rem] mb-[0.43rem] font-semibold text-[0.34rem] leading-[0.41rem]">Address</p>
+                        <p class="text-[0.28rem] leading-[0.34rem]">No 14, Station Road, Along Royalton Hotel, GRA, Iloron.</p>
+                    </div>
+                </div>
+                </div>
 
-
-    
+                <!-- bottom half -->
+                <div class="w-[100%] h-[2.67rem] mx-auto flex justify-between">
+                    <!-- first div -->
+                    <div class="pt-[1.5rem] w-[3.38rem]">
+                    <!-- social media platforms -->
+                    <div class="flex justify-between w-[1.77rem] h-[0.34rem] mb-[0.28rem]">
+                        <a href="https://www.instagram.com/webfalainitiative?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">
+                            <img src="/GROUP-6/Group6/Images/1.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                        </a>
+                        <a href="https://www.linkedin.com/company/webfala-digital-skills-for-all-initiative/">
+                            <img src="/GROUP-6/Group6/Images/2.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                        </a>
+                        <a href="https://www.facebook.com/webfalainitiative?mibextid=ZbWKwL">
+                            <img src="/GROUP-6/Group6/Images/3.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                        </a>
+                        <a href="https://x.com/Webfalainitiat1?s=20">
+                            <img src="/GROUP-6/Group6/Images/4.svg" alt="" class="w-[0.32rem] h-[0.34rem]">
+                        </a>
+                    </div>
+                    <p class="w-[3rem] h-[0.38rem] mb-[0.18rem] text-[0.28rem] leading-[0.34rem]">911, +2348188531849</p>
+                    <p class="w-[3.06rem] h-[0.38rem] text-[0.28rem] leading-[0.34rem]">safehaven@gmail.com</p>
+                    </div>
+                    <!-- second div -->
+                    <div class="w-[55%] h-[1.63rem] mt-[1.2rem]">
+                    <p class="flex gap-[0.2rem] text-[0.28rem] leading-[0.34rem] items-center">
+                        <img src="./Images/mail.svg" alt="" class="w-[0.34rem] h-[0.34rem]">
+                        Subscribe To The SafeHaven Newsletter
+                    </p>
+                    <p class="text-[0.3rem] mt-[0.28rem] h-[0.25rem]">Email address</p>
+                    <div class="flex items-center">
+                        <input type="email" class="bg-black border-solid border-2 mt-[0.65rem] rounded-[0.11rem] w-[70%] h-[0.58rem] mr-[0.5rem]">
+                        <a href="" onclick="openForm()">
+                            <button class="bg-white w-[2.1rem] h-[0.58rem] text-black rounded-[1.42rem] font-medium text-[0.23rem] leading-[0.28rem]">Join us now</button>
+                        </a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="main.js"></script> 
 </body>
 </html>

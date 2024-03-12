@@ -17,4 +17,17 @@ function toggleMenu() {
     }
 }
 icon.addEventListener("click",toggleMenu);
-menu.addEventListener("click",toggleMenu)
+menu.addEventListener("click",toggleMenu);
+
+const form = document.querySelector('#form');
+const sign = document.querySelector('.sign-up');
+const submit = document.querySelector('.submit');
+sign.addEventListener("click", () => {
+    console.log("clicked");
+})
+
+submit.addEventListener("click", () => {
+    console.log("submitted");
+})
+
+
