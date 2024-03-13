@@ -590,7 +590,7 @@ button:hover{
   background: linear-gradient(90deg, #ABA7A7, #ECDE91)
 }
 
-.about{
-  background-image: url(/GROUP-6/Group6/Images/about.svg);
-  background-size: cover;
-}
+/* .about{
+    background-image: url(/GROUP-6/Group6/Images/about.svg);
+    background-size: cover;
+} */
