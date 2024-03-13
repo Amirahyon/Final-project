@@ -7,46 +7,92 @@
     <link href="./src/output.css" rel="stylesheet">
     <title>SafeHaven</title>
 </head>
-<body class="w-[60%] h-[80vh] mx-auto bg-white">
-    <form action="" class="form">
-        <h1 class="text-center font-bold text-4xl">Create an account</h1>
-        <div class="mt-[2rem] w-[90%] mx-auto">
-            <label for="email" class="font-medium text-xl block">Email address</label>
-            <input type="email" required class="mt-[0.5rem] w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
-
-            <div class="flex gap-[3rem] mt-[1rem] w-[90%]">
-                <div class="w-[50%]">
-                    <label for="name" class="font-medium text-xl block">First name</label>
-                    <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+<body>
+    <!-- form on lg -->
+    <section class="w-[60%] h-[80vh] mx-auto bg-white max-lg:hidden">
+        <form action="" class="form">
+            <h1 class="text-center font-bold text-4xl">Create an account</h1>
+            <div class="mt-[2rem] w-[90%] mx-auto">
+                <label for="email" class="font-medium text-xl block">Email address</label>
+                <input type="email" required class="mt-[0.5rem] w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
+    
+                <div class="flex gap-[3rem] mt-[1rem] w-[90%]">
+                    <div class="w-[50%]">
+                        <label for="name" class="font-medium text-xl block">First name</label>
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                    </div>
+                    <div class="w-[50%]">
+                        <label for="name" class="font-medium text-xl block">Last name</label>
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                    </div>
                 </div>
-                <div class="w-[50%]">
-                    <label for="name" class="font-medium text-xl block">Last name</label>
-                    <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
-                </div>
+    
+                <label for="password" class="font-medium text-xl block mt-[1rem]">Password</label>
+                <input type="password" required class="w-[90%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
+    
+                <label for="dob" class="font-medium text-xl block mt-[1rem]">Date of birth</label>
+                <input type="date" required class="w-[90%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+    
             </div>
+            
+            <div class="w-[90%] mx-auto mt-[1.5rem] flex gap-[0.5rem]">
+                <input type="checkbox" required>
+                <p class="text-xs">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
+            </div>
+    
+            <!-- submit -->
+            <div class="w-[11rem] h-[3rem] mx-auto mt-[1.5rem]">
+                <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium text-xl rounded-[1.5rem] hover:font-bold" onclick="closeForm()">
+            </div>
+    
+            <div class="text-center mt-[1rem]">
+                <h1>Already have an account? <a href="" class="text-[#08329D] ml-[0.2rem]">Sign in</a></h1>
+            </div>
+        </form>
+    </section>
 
-            <label for="password" class="font-medium text-xl block mt-[1rem]">Password</label>
-            <input type="password" required class="w-[90%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
-
-            <label for="dob" class="font-medium text-xl block mt-[1rem]">Date of birth</label>
-            <input type="date" required class="w-[90%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
-
-        </div>
-        
-        <div class="w-[90%] mx-auto mt-[1.5rem] flex gap-[0.5rem]">
-            <input type="checkbox" required>
-            <p class="text-xs">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
-        </div>
-
-        <!-- submit -->
-        <div class="w-[11rem] h-[3rem] mx-auto mt-[1.5rem]">
-            <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium text-xl rounded-[1.5rem] hover:font-bold" onclick="closeForm()">
-        </div>
-
-        <div class="text-center mt-[1rem]">
-            <h1>Already have an account? <a href="" class="text-[#08329D] ml-[0.2rem]">Sign in</a></h1>
-        </div>
-    </form>
+    <!-- form on mobile -->
+    <section class="w-[90%] h-[80vh] mx-auto bg-white lg:hidden">
+        <form action="" class="form">
+            <h1 class="text-center font-bold sm:text-3xl text-2xl">Create an account</h1>
+            <div class="mt-[1.5rem] w-[100%] sm:w-[90%] px-[0.5rem] mx-auto">
+                <label for="email" class="font-medium text-lg block">Email address</label>
+                <input type="email" required class="mt-[0.5rem] w-[100%] sm:w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
+    
+                <div class="flex gap-[1.5rem] mt-[0.7rem] w-[100%] sm:w-[90%]">
+                    <div class="w-[50%]">
+                        <label for="name" class="font-medium text-lg block">First name</label>
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                    </div>
+                    <div class="w-[50%]">
+                        <label for="name" class="font-medium text-lg block">Last name</label>
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem]">
+                    </div>
+                </div>
+    
+                <label for="password" class="font-medium text-lg block mt-[0.7rem]">Password</label>
+                <input type="password" required class="sm:w-[90%] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
+    
+                <label for="dob" class="font-medium text-lg block mt-[0.7rem]">Date of birth</label>
+                <input type="date" required class="sm:w-[90%] w-[100%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+    
+            </div>
+            
+            <div class="w-[100%] sm:w-[90%] mx-auto mt-[1rem] pl-[0.7rem] flex gap-[0.3rem]">
+                <input type="checkbox" required>
+                <p class="text-[0.63rem]">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
+            </div>
+    
+            <!-- submit -->
+            <div class="sm:w-[11rem] w-[7rem] sm:h-[3rem] h-[2.7rem] mx-auto mt-[1.5rem]">
+                <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium sm:text-xl text-[0.8rem] rounded-[1.5rem] hover:font-bold">
+            </div>
+    
+            <div class="text-center mt-[0.5rem] sm:mt-[1rem]">
+                <h1>Already have an account? <a href="" class="text-[#08329D] ml-[0.2rem]">Sign in</a></h1>
+            </div>
+        </form>
+    </section>
     <script src="main.js"></script>
 </body>
 </html>
