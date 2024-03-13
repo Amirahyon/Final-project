@@ -9,24 +9,29 @@
 </head>
 <body>
     <section class="sign-up w-[100%] min-h-[100vh] mx-auto bg-[#f9f7f7] flex flex-col items-center">
-        <form class="w-[40%] max-lg:w-[70%] h-[100vh] max-lg:h-[50%] max-lg:my-[5rem] bg-white max-lg:px-[1rem] px-[3rem] border border-gray-300 rounded-[1.25rem]">
+        <form class="w-[40%] max-lg:w-[90%] h-[100vh] max-lg:h-[50%] max-lg:my-[5rem] bg-white max-lg:px-[1rem] px-[3rem] border border-gray-300 rounded-[1.25rem]">
             <div class="mt-[2rem] max-lg:mt-[1rem] flex flex-col gap-[2rem] max-lg:gap-[1rem]">
-                <p class="font-[500] text-[2rem] max-lg:text-[1.5rem] max-lg:mb-[1rem] text-center">Sign In</p>
+                <div class="flex justify-between items-center mr-[0.3rem]">
+                    <p class="font-[500] text-[2rem] max-lg:text-[1.5rem] ml-[0.5rem] text-center">Sign In</p>
+                    <a href="./home.html">
+                        <img src="./Images/back.svg" alt="" class="border w-[2rem] h-[2rem] rounded-[2rem] p-[0.3rem]">
+                    </a>
+                </div>
 
                 <!-- Username -->
-                <div class="flex justify-between items-center w-[100%] max-lg:h-[2.5rem] border-2 rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex justify-between max-lg:mt-[1rem] items-center w-[100%] h-[3rem] max-lg:h-[2.5rem] border-2 rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="text" class="bg-[#fff] w-[90%] h-[100%] z-0 relativehover:border-blue-600 outline-none rounded-[1rem] max-lg:px-[0.5rem] px-[1rem] text-black" placeholder="Username" required>
                     <img class="w-[10%] h-[1.2rem]" src="./Images/user.svg" alt="">
                 </div>
 
                 <!-- email -->
-                <div class="flex items-center w-[100%] border-2 max-lg:h-[2.5rem] rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex items-center w-[100%] border-2 max-lg:h-[2.5rem] h-[3rem] rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="email" class="bg-[#fff] w-[90%] h-[100%] z-0 relative hover:border-blue-600 outline-none rounded-[1rem] px-[1rem] text-black" placeholder="Email" required>
                     <img class="w-[10%] h-[1.2rem]" src="./Images/email.svg" alt="">
                 </div>
 
                 <!-- password -->
-                <div class="flex items-center w-[100%] border-2 bg-[#e8f0fe] max-lg:h-[2.5rem] rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex items-center w-[100%] border-2 max-lg:bg-white bg-[#e8f0fe] h-[3rem] max-lg:h-[2.5rem] rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="password" class="bg-[#fff] w-[90%] h-[100%] z-0 relative hover:border-blue-600 outline-none rounded-[1rem] px-[1rem] text-black" placeholder="Password" required>
                     <img class="w-[10%] h-[1.2rem] z-1" src="./Images/password.svg" alt="">
                 </div>    
