@@ -11,42 +11,44 @@
     <section class="sign-up w-[100%] min-h-[100vh] mx-auto bg-[#f9f7f7] flex flex-col items-center">
         <form class="w-[40%] max-lg:w-[90%] h-[100vh] max-lg:h-[50%] max-lg:my-[5rem] bg-white max-lg:px-[1rem] px-[3rem] border border-gray-300 rounded-[1.25rem]">
             <div class="mt-[2rem] max-lg:mt-[1rem] flex flex-col gap-[2rem] max-lg:gap-[1rem]">
-                <div class="flex justify-between items-center mr-[0.3rem]">
-                    <p class="font-[500] text-[2rem] max-lg:text-[1.5rem] ml-[0.5rem] text-center">Sign In</p>
+                <div class="flex items-center pl-[0.5rem]">
                     <a href="./home.html">
                         <img src="./Images/back.svg" alt="" class="border w-[2rem] h-[2rem] rounded-[2rem] p-[0.3rem]">
                     </a>
+                    <p class="font-[500] text-[2rem] max-lg:text-[1.5rem] w-[80%] text-center">Sign In</p>
                 </div>
 
                 <!-- Username -->
-                <div class="flex justify-between max-lg:mt-[1rem] items-center w-[100%] h-[3rem] max-lg:h-[2.5rem] border-2 rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex justify-between max-lg:mt-[1rem] items-center w-[100%] h-[3rem] sm:h-[3rem] max-lg:h-[2.5rem] border-2 rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="text" class="bg-[#fff] w-[90%] h-[100%] z-0 relativehover:border-blue-600 outline-none rounded-[1rem] max-lg:px-[0.5rem] px-[1rem] text-black" placeholder="Username" required>
                     <img class="w-[10%] h-[1.2rem]" src="./Images/user.svg" alt="">
                 </div>
 
                 <!-- email -->
-                <div class="flex items-center w-[100%] border-2 max-lg:h-[2.5rem] h-[3rem] rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex items-center w-[100%] border-2 max-lg:h-[2.5rem] sm:h-[3rem] h-[3rem] rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="email" class="bg-[#fff] w-[90%] h-[100%] z-0 relative hover:border-blue-600 outline-none rounded-[1rem] px-[1rem] text-black" placeholder="Email" required>
                     <img class="w-[10%] h-[1.2rem]" src="./Images/email.svg" alt="">
                 </div>
 
                 <!-- password -->
-                <div class="flex items-center w-[100%] border-2 bg-white h-[3rem] max-lg:h-[2.5rem] rounded-[1rem] max-lg:pr-[0.2rem]">
+                <div class="flex items-center w-[100%] border-2 bg-white h-[3rem] sm:h-[3rem] max-lg:h-[2.5rem] rounded-[1rem] max-lg:pr-[0.2rem]">
                     <input type="password" class="bg-[#fff] w-[90%] h-[100%] z-0 relative hover:border-blue-600 outline-none rounded-[1rem] px-[1rem] text-black" placeholder="Password" required>
                     <img class="w-[10%] h-[1.2rem] z-1" src="./Images/password.svg" alt="">
                 </div>    
                     
                 <div class="flex items-center justify-between">
-                    <div class="flex items-center gap-[0.3rem] ml-[0.2rem]">
+                    <div class="flex items-center gap-[0.3rem] sm:gap-[0.5rem] ml-[0.2rem]">
                         <input id="remember" name="remember" type="checkbox">
-                        <p class="text-[0.9rem] max-lg:text-[0.6rem] font-[500]">Remember me</p>
+                        <p class="text-[0.9rem] max-lg:text-[0.6rem] sm:text-[1rem] font-[500]">Remember me</p>
                     </div>
                     <div>
-                        <a class="text-[0.9rem] max-lg:text-[0.6rem] hover:text-gray-500 font-[500]" href="./src/contact.html">Forgot Password?</a>
+                        <a class="text-[0.9rem] max-lg:text-[0.6rem] sm:text-[1rem] hover:text-gray-500 font-[500]" href="./contact.html">Forgot Password?</a>
                     </div>
                 </div>    
                 <div class="">
-                    <button type="submit" class="text-lg max-lg:text-base w-full h-[3rem] outline-none md:font-bold rounded-[1rem] bg-[#000] hover:text-gray-500 text-white">Sign in</button>
+                    <a href="./home.html">
+                        <button type="submit" class="text-lg max-lg:text-base w-full h-[3rem] outline-none md:font-bold rounded-[1rem] bg-[#000] hover:text-gray-500 text-white">Sign in</button>
+                    </a>
                 </div>    
                 <div class="flex gap-[0.5rem] max-lg:gap-[0.3rem] max-lg:mb-[1rem] max-lg:text-[0.7rem] justify-center">
                     <p>Don't have an account?</p>

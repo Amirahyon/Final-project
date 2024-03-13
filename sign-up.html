@@ -11,38 +11,45 @@
     <!-- form on lg -->
     <section class="w-[60%] h-[80vh] mx-auto bg-white max-lg:hidden">
         <form action="" class="form">
-            <h1 class="text-center font-bold text-4xl">Create an account</h1>
+            <div class="flex items-center w-[90%] mx-auto">
+                <a href="./home.html">
+                    <img src="./Images/back.svg" alt="" class="border w-[2rem] h-[2rem] rounded-[2rem] p-[0.3rem]">
+                </a>
+                <h1 class="text-center font-bold w-[80%] text-4xl">Create an account</h1>
+            </div>
             <div class="mt-[2rem] w-[90%] mx-auto">
                 <label for="email" class="font-medium text-xl block">Email address</label>
-                <input type="email" required class="mt-[0.5rem] w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
+                <input type="email" required class="mt-[0.5rem] w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.8rem]">
     
                 <div class="flex gap-[3rem] mt-[1rem] w-[90%]">
                     <div class="w-[50%]">
                         <label for="name" class="font-medium text-xl block">First name</label>
-                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
                     </div>
                     <div class="w-[50%]">
                         <label for="name" class="font-medium text-xl block">Last name</label>
-                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
                     </div>
                 </div>
     
                 <label for="password" class="font-medium text-xl block mt-[1rem]">Password</label>
-                <input type="password" required class="w-[90%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
+                <input type="password" required class="w-[90%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.8rem]">
     
                 <label for="dob" class="font-medium text-xl block mt-[1rem]">Date of birth</label>
-                <input type="date" required class="w-[90%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                <input type="date" required class="w-[90%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
     
             </div>
             
             <div class="w-[90%] mx-auto mt-[1.5rem] flex gap-[0.5rem]">
                 <input type="checkbox" required>
-                <p class="text-xs">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
+                <p class="text-xs">By clicking create account, I agree that I've read and accepted the <a href="" class="text-blue-500">term and condition</a> and <a href="" class="text-blue-500">privacy policy</a>.</p>
             </div>
     
             <!-- submit -->
             <div class="w-[11rem] h-[3rem] mx-auto mt-[1.5rem]">
-                <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium text-xl rounded-[1.5rem] hover:font-bold" onclick="closeForm()">
+                <a href="./home.html">
+                    <button class="create bg-black text-white w-[100%] h-[100%] font-medium text-xl rounded-[1.5rem] hover:font-bold">Create account</button>
+                </a>
             </div>
     
             <div class="text-center mt-[1rem]">
@@ -52,40 +59,47 @@
     </section>
 
     <!-- form on mobile -->
-    <section class="w-[90%] h-[80vh] mx-auto bg-white lg:hidden">
+    <section class="w-[90%] h-[80%] mx-auto bg-white lg:hidden">
         <form action="" class="form">
-            <h1 class="text-center font-bold pt-[1rem] sm:text-3xl text-2xl">Create an account</h1>
+            <div class="flex items-center pt-[1rem] pl-[0.5rem] sm:w-[90%] sm:mx-auto">
+                <a href="./home.html">
+                    <img src="./Images/back.svg" alt="" class="border w-[2rem] h-[2rem] rounded-[2rem] p-[0.3rem]">
+                </a>
+                <h1 class="text-center font-bold sm:text-3xl text-2xl w-[80%]">Create an account</h1>
+            </div>
             <div class="mt-[1.5rem] w-[100%] sm:w-[90%] px-[0.5rem] mx-auto">
                 <label for="email" class="font-medium text-lg block">Email address</label>
-                <input type="email" required class="mt-[0.5rem] w-[100%] sm:w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.5rem]">
+                <input type="email" required class="mt-[0.5rem] w-[100%] sm:w-[90%] h-[2rem] bg-[#D4D4D4] rounded-[0.63rem] pl-[0.8rem]">
     
                 <div class="flex gap-[1.5rem] mt-[0.7rem] w-[100%] sm:w-[90%]">
                     <div class="w-[50%]">
                         <label for="name" class="font-medium text-lg block">First name</label>
-                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
                     </div>
                     <div class="w-[50%]">
                         <label for="name" class="font-medium text-lg block">Last name</label>
-                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem]">
+                        <input type="text" required class="mt-[0.5rem] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
                     </div>
                 </div>
     
                 <label for="password" class="font-medium text-lg block mt-[0.7rem]">Password</label>
-                <input type="password" required class="sm:w-[90%] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.5rem]">
+                <input type="password" required class="sm:w-[90%] w-[100%] h-[2rem] bg-[#d4d4d4] rounded-[0.63rem] mt-[0.5rem] pl-[0.8rem]">
     
                 <label for="dob" class="font-medium text-lg block mt-[0.7rem]">Date of birth</label>
-                <input type="date" required class="sm:w-[90%] w-[100%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.5rem]">
+                <input type="date" required class="sm:w-[90%] w-[100%] h-[2rem] mt-[0.5rem] bg-[#d4d4d4] rounded-[0.63rem] pl-[0.8rem]">
     
             </div>
             
             <div class="w-[100%] sm:w-[90%] mx-auto mt-[1rem] pl-[0.7rem] flex gap-[0.3rem]">
                 <input type="checkbox" required>
-                <p class="text-[0.63rem]">By clicking create account, I agree that I've read and accepted the term and condition and privacy policy.</p>
+                <p class="text-[0.63rem]">By clicking create account, I agree that I've read and accepted the <a href="" class="text-blue-500">term and condition</a> and <a href="" class="text-blue-500">privacy policy</a>.</p>
             </div>
     
             <!-- submit -->
             <div class="sm:w-[11rem] w-[7rem] sm:h-[3rem] h-[2.7rem] mx-auto mt-[1.5rem]">
-                <input type="submit" value="Create account" class="submit bg-black text-white w-[100%] h-[100%] font-medium sm:text-xl text-[0.8rem] rounded-[1.5rem] hover:font-bold">
+                <a href="./home.html">
+                    <button class="crate bg-black text-white w-[100%] h-[100%] font-medium sm:text-xl text-[0.8rem] rounded-[1.5rem] hover:font-bold">Create account</button>
+                </a>
             </div>
     
             <div class="text-center mt-[0.5rem] sm:mt-[1rem]">
@@ -93,6 +107,8 @@
             </div>
         </form>
     </section>
+
+    <script src="class.js"></script>
     <script src="main.js"></script>
 </body>
 </html>

@@ -170,7 +170,8 @@
                     
                     <div class="flex">
     
-                        <a href=""><button type="submit" class="bg-black text-white text-2xl w-[15.94rem] h-[4.75rem] mt-[2rem] rounded-[0.4rem] ml-[19rem]">Send Message</button>
+                        <a href="./home.html">
+                            <button type="submit" class="message bg-black text-white text-2xl w-[15.94rem] h-[4.75rem] mt-[2rem] rounded-[0.4rem] ml-[19rem]">Send Message</button>
                         </a>
                     </div>
                 </div>
@@ -257,6 +258,7 @@
                             <input class="bg-white border border-black w-[100%] h-[1.5rem] rounded-[0.3rem]" type="text">
                         </div>
                     </div>
+                    <!-- select Subject -->
                     <div class="mt-[1rem]">
                         <p class="text-[0.6rem] text-[#8D8D8D] font-semibold">Select Subject?</p>
                         <div class="mt-[0.5rem] flex justify-between w-[85%] text-[0.4rem] items-center">
@@ -278,14 +280,16 @@
                             </div>
                         </div>
                     </div>
+                    <!-- send message -->
                     <div class="mt-[1rem] w-[90%]">
                         <p class="text-[#8D8D8D] text-[0.7rem] font-semibold">Message</p>
                         <textarea name="" id="" cols="31" rows="7" placeholder="Write your message...." class="border-2 border-[#757574] rounded-[0.7rem] mt-[0.5rem] w-[100%] pt-[0.8rem] pl-[0.8rem] font-medium text-[1rem]"></textarea>
                     </div>
                     
+                    <!-- button -->
                     <div class="w-[7.94rem] h-[2.75rem] mx-auto">
-                        <a href="">
-                            <button type="submit" class="bg-black text-white text-[1rem] w-[100%] h-[100%] mt-[1.5rem] rounded-[0.4rem] items-end">Send Message</button>
+                        <a href="./home.html">
+                            <button type="submit" class="send bg-black text-white text-[1rem] w-[100%] h-[100%] mt-[1.5rem] rounded-[0.4rem] items-end">Send Message</button>
                         </a>
                     </div>
                 </div>
@@ -303,7 +307,7 @@
                 <div class="w-[100%] h-[8.7rem] mx-auto mb-[2.06rem] flex justify-between">
                     <!-- first div -->
                     <div class="w-[40%] h-[70%]">
-                        <div class="flex">
+                        <div class="flex gap-[0.5rem]">
                             <img src="./Images/log.svg" alt="" class="w-[3.14rem] h-[4rem]">
                             <div>
                                 <p class="font-bold text-3xl text-[#F4BD1A]">SafeHaven</p>
@@ -387,7 +391,7 @@
                 <div class="w-[100%] h-[2.67rem] mx-auto flex justify-between">
                 <!-- first div -->
                 <div class="w-[3.38rem] h-[70%]">
-                    <div class="flex h-[1.13rem]">
+                    <div class="flex h-[1.13rem] gap-[0.2rem]">
                         <img src="./Images/log.svg" alt="" class="w-[0.71rem] h-[1.02rem]">
                         <div class="w-[2.61rem] h-[1.02rem] text-[0.49rem] font-bold leading-[0.57rem]">
                             <p class="text-[#F4BD1A]">SafeHaven</p>
@@ -464,6 +468,8 @@
             </div>
         </section>
     </main>
+
     <script src="main.js"></script>
+    <script src="message.js"></script>
 </body>
 </html>
