@@ -8,72 +8,72 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="w-[90%] mx-auto">
-        <!-- first section on lg-->
-        <section class="bg-white w-[100%] h-[7.5rem] py-[2rem] max-lg:hidden">
-            <!-- nav bar -->
-            <div class="w-[80%] h-[3.5rem] mx-auto flex justify-between">
-                <!-- image -->
-                <img src="./Images/logo.svg" alt="logo" class="w-[7.99rem] h-[2.75rem] my-[0.38rem]">
-    
-                <!-- list -->
-                <ul class=" w-[23.94rem] my-[1rem] flex justify-between font-semibold text-xl">
+    <!-- first section on lg-->
+    <section class="bg-white w-[100%] h-[7.5rem] py-[2rem] max-lg:hidden">
+        <!-- nav bar -->
+        <div class="w-[90%] h-[3.5rem] mx-auto flex justify-between">
+            <!-- image -->
+            <img src="./Images/logo.svg" alt="logo" class="w-[7.99rem] h-[2.75rem] my-[0.38rem]">
+
+            <!-- list -->
+            <ul class=" w-[23.94rem] my-[1rem] flex justify-between font-semibold text-xl">
+                <li>
+                    <a href="./home.html" class="text-[#9E9E9E]">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+                <li>
+                    <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
+                </li>
+            </ul>
+
+            <!-- button -->
+            <a href="./resource.html" class="w-[11.63rem] h-[3.5remrem]">
+                <button class="bg-black text-white w-[100%] h-[100%] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
+            </a>
+        </div>
+    </section>
+
+   <!-- first section on mobile -->
+   <section class="fixed top-0 w-[100%] bg-white h-[2.5rem] flex justify-between lg:hidden">
+        <!-- nav bar -->
+        <div class="w-[6.13rem] h-[1.2rem]">
+            <img src="./Images/logo.svg" alt="" class="w-[100%] h-[100%] my-[0.65rem] ml-[0.5rem]">
+        </div>
+        <div class="icon">
+            <button class="mr-[0.5rem] mt-[0.65rem]">
+                <img src="./Images/line.svg" alt="" class="line-icon w-[1rem] h-[1rem]">
+            </button>
+        </div>
+
+        <!-- menu -->
+        <!-- list -->
+        <div class="menu w-[100%] h-[7.5rem] mx-auto flex justify-between pt-[0.65rem] fixed bg-white">
+            <div>
+                <ul class=" w-[20.94rem] ml-[1rem] font-semibold text-xs">
                     <li>
                         <a href="./home.html" class="text-[#9E9E9E]">Home</a>
                     </li>
-                    <li>
+                    <li class="mt-[0.5rem]">
                         <a href="./about.html">About</a>
                     </li>
-                    <li>
+                    <li class="mt-[0.5rem]">
                         <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
                     </li>
                 </ul>
-    
                 <!-- button -->
-                <a href="./resource.html" class="w-[11.63rem] h-[3.5remrem]">
-                    <button class="bg-black text-white w-[100%] h-[100%] font-medium text-lg rounded-[6.25rem]">Resource Library</button>
+                <a href="./resource.html" class="ml-[0.5rem]">
+                    <button class="bg-black text-white w-[5rem] h-[2rem] mt-[0.5rem] font-medium text-[0.5rem] rounded-[1.25rem]">Resource Library</button>
                 </a>
             </div>
-        </section>
-    
-       <!-- first section on mobile -->
-       <section class="fixed top-0 w-[90%] bg-white h-[2.5rem] flex justify-between lg:hidden">
-            <!-- nav bar -->
-            <div class="w-[6.13rem] h-[1.2rem]">
-                <img src="./Images/logo.svg" alt="" class="w-[100%] h-[100%] my-[0.65rem] ml-[0.5rem]">
+            <div class="fixed right-[0.5rem]">
+                <img src="./Images/close.svg" alt="" class="close w-[1rem] h-[1rem]">
             </div>
-            <div class="icon">
-                <button class="mr-[0.5rem] mt-[0.65rem]">
-                    <img src="./Images/line.svg" alt="" class="line-icon w-[1rem] h-[1rem]">
-                </button>
-            </div>
+        </div> 
+    </section>
 
-            <!-- menu -->
-            <!-- list -->
-            <div class="menu w-[90%] h-[7.5rem] mx-auto flex justify-between pt-[0.65rem] fixed bg-white">
-                <div>
-                    <ul class=" w-[20.94rem] ml-[1rem] font-semibold text-xs">
-                        <li>
-                            <a href="./home.html" class="text-[#9E9E9E]">Home</a>
-                        </li>
-                        <li class="mt-[0.5rem]">
-                            <a href="./about.html">About</a>
-                        </li>
-                        <li class="mt-[0.5rem]">
-                            <a href="./contact.html" class="text-[#9E9E9E]">Contact</a>
-                        </li>
-                    </ul>
-                    <!-- button -->
-                    <a href="./resource.html" class="ml-[0.5rem]">
-                        <button class="bg-black text-white w-[5rem] h-[2rem] mt-[0.5rem] font-medium text-[0.5rem] rounded-[1.25rem]">Resource Library</button>
-                    </a>
-                </div>
-                <div class="fixed right-[0.5rem]">
-                    <img src="./Images/close.svg" alt="" class="close w-[1rem] h-[1rem]">
-                </div>
-            </div> 
-        </section>
-    
+    <main class="w-[90%] mx-auto">
         <!-- second section on lg -->
         <section class="about w-[100%] h-[35.31rem] mt-[7.21rem] rounded-[1.56rem] max-lg:hidden">
             <img src="./Images/about.svg" alt="" class="w-[100%] h-[100%]">
